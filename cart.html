@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Đăng nhập tài khoản</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./assets/base.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./assets/style.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__wrap">
+          <div class="header__with-search">
+            <a href="index.html" class="logo">
+              <img src="img/Logo.png" alt="Logo" class="header__logo" />
+            </a>
+            <a href="branch.html">
+              <p class="header__with-search-store">
+                Hệ Thống cửa hàng
+                <br />
+                <span class="store__location"> (chi nhánh Nha Trang) </span>
+              </p>
+            </a>
+            <div class="header__with-search-form">
+              <input
+                type="text"
+                class="header__with-search-input"
+                placeholder="Từ khóa..."
+              />
+              <i class="input-icon fas fa-search" style="cursor: pointer"></i>
+            </div>
+            <ul class="header__with-search-list">
+              <li class="header__with-search-item">
+                <a href="news.html">
+                  <p class="header__with-search-blog">24h Công nghệ</p>
+                </a>
+              </li>
+              <li class="header__with-search-item">
+                <a href="news.html">
+                  <p class="header__with-search-news">News</p>
+                </a>
+              </li>
+              <li class="header__with-search-item">
+                <i class="header__with-search-icon fas fa-phone"></i>
+                <span class="header__with-search-phone">012345678</span>
+              </li>
+              <li class="header__with-search-item">
+                <i class="header__with-search-icon far fa-user-circle"></i>
+                <div class="header__with-search-user">
+                  <a href="login.html">
+                    <p class="header__with-search-login">Đăng nhập</p>
+                  </a>
+                  <a href="register.html">
+                    <p class="header__with-search-register">Đăng ký</p>
+                  </a>
+                </div>
+              </li>
+              <li class="header__with-search-item">
+                <a href="cart.html">
+                  <div class="header__with-search-cart">
+                    <i class="header__with-search-icon fas fa-shopping-bag"></i>
+                    <p class="header__with-search-cart-name">Giỏ <br />hàng</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="header__navbar">
+            <ul class="header__navbar-list">
+              <li class="header__navbar-item">
+                <a href=""> Trang Chủ </a>
+              </li>
+              <li class="header__navbar-item">
+                <a href="introduction.html"> Giới thiệu </a>
+              </li>
+              <li
+                class="header__navbar-item navbar__laptop-list header__navbar-item--has-arrow"
+              >
+                <a href=""> Laptop </a>
+                <ul class="header__navbar-laptop-list">
+                  <li class="header__navbar-laptop-item">
+                    <a href="">Dell</a>
+                  </li>
+                  <li class="header__navbar-laptop-item">
+                    <a href="">Hp</a>
+                  </li>
+                  <li class="header__navbar-laptop-item">
+                    <a href="">Asus</a>
+                  </li>
+                  <li class="header__navbar-laptop-item">
+                    <a href="">Acer</a>
+                  </li>
+                  <li class="header__navbar-laptop-item">
+                    <a href="">Lenovo</a>
+                  </li>
+                  <li class="header__navbar-laptop-item">
+                    <a href="">Msi</a>
+                  </li>
+                  <li class="header__navbar-laptop-item">
+                    <a href="">Samsung</a>
+                  </li>
+                </ul>
+              </li>
+              <li
+                class="header__navbar-item navbar__laptop-list--luxury header__navbar-item--has-arrow"
+              >
+                <a href=""> Mỏng nhẹ cao cấp </a>
+                <ul class="header__navbar-laptop-list">
+                  <li class="header__navbar-laptop-item">
+                    <a href="">Dell</a>
+                  </li>
+                  <li class="header__navbar-laptop-item">
+                    <a href="">Asus</a>
+                  </li>
+                  <li class="header__navbar-laptop-item">
+                    <a href="">Acer</a>
+                  </li>
+                  <li class="header__navbar-laptop-item">
+                    <a href="">Hp</a>
+                  </li>
+                  <li class="header__navbar-laptop-item">
+                    <a href="">Lenovo</a>
+                  </li>
+                  <li class="header__navbar-laptop-item">
+                    <a href="">Thinkbook</a>
+                  </li>
+                  <li class="header__navbar-laptop-item">
+                    <a href="">Dell Xps</a>
+                  </li>
+                  <li class="header__navbar-laptop-item">
+                    <a href="">Samsung</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="header__navbar-item">
+                <a href=""> Gaming & đồ họa </a>
+              </li>
+              <li class="header__navbar-item">
+                <a href=""> New Outlet </a>
+              </li>
+              <li class="header__navbar-item">
+                <a href=""> Surface </a>
+              </li>
+              <li class="header__navbar-item">
+                <a href=""> Máy cũ giá rẻ </a>
+              </li>
+              <li
+                class="header__navbar-item navbar__laptop-list--accessory header__navbar-item--has-arrow"
+              >
+                <a href=""> Phụ kiện </a>
+                <ul class="header__navbar-laptop-list">
+                  <li class="header__navbar-laptop-item">
+                    <a href="">Bàn phím</a>
+                  </li>
+                  <li class="header__navbar-laptop-item">
+                    <a href="">Chuột</a>
+                  </li>
+                  <li class="header__navbar-laptop-item">
+                    <a href="">Túi bao da</a>
+                  </li>
+                  <li class="header__navbar-laptop-item">
+                    <a href="">Bút</a>
+                  </li>
+                  <li class="header__navbar-laptop-item">
+                    <a href="">Kính cường lực</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="header__navbar-item">
+                <a href=""> Trả góp 0% </a>
+              </li>
+              <li class="header__navbar-item">
+                <a href=""> Khuyến mãi </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <!-- Body content -->
+      <div class="container-f-w">
+        <div class="container">
+          <ul class="breadcrumb">
+            <li class="breadcrumb-item">
+              <a href="index.html" title="Trang chủ">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  x="0px"
+                  y="0px"
+                  width="12"
+                  height="12"
+                  viewBox="0,0,256,256"
+                >
+                  <g
+                    fill="#d80000"
+                    fill-rule="nonzero"
+                    stroke="none"
+                    stroke-width="1"
+                    stroke-linecap="butt"
+                    stroke-linejoin="miter"
+                    stroke-miterlimit="10"
+                    stroke-dasharray=""
+                    stroke-dashoffset="0"
+                    font-family="none"
+                    font-weight="none"
+                    font-size="none"
+                    text-anchor="none"
+                    style="mix-blend-mode: normal"
+                  >
+                    <g transform="scale(5.12,5.12)">
+                      <path
+                        d="M24.96289,1.05469c-0.20987,0.00724 -0.41214,0.08036 -0.57812,0.20898l-23,17.94727c-0.43579,0.33978 -0.51361,0.96851 -0.17383,1.4043c0.33978,0.43579 0.96851,0.51361 1.4043,0.17383l1.38477,-1.08008v26.29102c0.00006,0.55226 0.44774,0.99994 1,1h13.83203c0.10799,0.01785 0.21818,0.01785 0.32617,0h11.67383c0.10799,0.01785 0.21818,0.01785 0.32617,0h13.8418c0.55226,-0.00006 0.99994,-0.44774 1,-1v-26.29102l1.38477,1.08008c0.2819,0.21983 0.65967,0.27257 0.991,0.13833c0.33133,-0.13423 0.56586,-0.43504 0.61526,-0.7891c0.0494,-0.35406 -0.09386,-0.70757 -0.37579,-0.92736l-7.61523,-5.94141v-7.26953h-6v2.58594l-9.38477,-7.32227c-0.18607,-0.14428 -0.41707,-0.21828 -0.65234,-0.20898zM25,3.32227l19,14.82617v26.85156h-12v-19h-14v19h-12v-26.85156zM37,8h2v3.70898l-2,-1.5625zM20,28h10v17h-10z"
+                      ></path>
+                    </g>
+                  </g></svg
+                >Trang chủ</a
+              >
+            </li>
+            <li><span class="slash-divider">/</span></li>
+            <li>Giỏ hàng</li>
+          </ul>
+        </div>
+      </div>
+      <div class="container cart_site-container">
+        <div class="cart_site">
+          <h3 class="cart_site-heading">Giỏ hàng</h3>
+          <div class="cart_site-notify">
+            Không có sản phẩm nào. Quay lại
+            <strong><a href="index.html">cửa hàng</a></strong> để tiếp tục mua
+            sắm
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer__wrapper">
+        <div class="container">
+          <div class="footer-list">
+            <div class="footer__item">
+              <h3 class="footer__item-heading">Công Ty TNHH LaptopAgent</h3>
+              <p class="footer__item-with-icon">
+                <i class="fas fa-map-marker-alt footer-icon"></i> Khu đô thị
+                Vĩnh Điềm Trung, phường Lọc Thọ, tỉnh Khánh Hòa, thành phố Nha
+                Trang
+              </p>
+              <p class="footer__item-with-icon">
+                <i class="fas fa-phone-square-alt footer-icon"></i> Hotline:
+                0123 456 789
+              </p>
+              <p class="footer__item-with-icon">
+                <i class="fas fa-envelope-square footer-icon"></i> Email:
+                LaptopAgent@supportmail.com.vn
+              </p>
+              <p class="footer__item-with-icon">
+                <i class="fas fa-globe footer-icon"></i> Website:
+                laptopagent.com.vn
+              </p>
+            </div>
+            <div class="footer__item">
+              <h3 class="footer__item-heading">Truy cập nhanh</h3>
+              <a href="">
+                <p class="footer__item-with-icon">>&nbsp; Trang chủ</p>
+              </a>
+              <a href="">
+                <p class="footer__item-with-icon">>&nbsp; Giới thiệu</p>
+              </a>
+              <a href="">
+                <p class="footer__item-with-icon">>&nbsp; Tư vấn laptop</p>
+              </a>
+              <a href="">
+                <p class="footer__item-with-icon">>&nbsp; Sự kiện</p>
+              </a>
+              <a href="">
+                <p class="footer__item-with-icon">>&nbsp; Liên hệ</p>
+              </a>
+            </div>
+            <div class="footer__item">
+              <h3 class="footer__item-heading">Danh mục sản phẩm</h3>
+              <a href="">
+                <p class="footer__item-with-icon">>&nbsp; Laptop Acer</p>
+              </a>
+              <a href="">
+                <p class="footer__item-with-icon">>&nbsp; Laptop Legion</p>
+              </a>
+              <a href="">
+                <p class="footer__item-with-icon">>&nbsp; Laptop HP</p>
+              </a>
+              <a href="">
+                <p class="footer__item-with-icon">>&nbsp; Laptop Samsung</p>
+              </a>
+              <a href="">
+                <p class="footer__item-with-icon">> &nbsp;Laptop Surface</p>
+              </a>
+              <a href="">
+                <p class="footer__item-with-icon">>&nbsp; Laptop siêu rẻ</p>
+              </a>
+            </div>
+            <div class="footer__item">
+              <h3 class="footer__item-heading">Follow us</h3>
+              <a href="">
+                <p class="footer__item-with-icon">
+                  <i class="fab fa-facebook footer-icon"></i> Facebook
+                </p>
+              </a>
+              <a href="">
+                <p class="footer__item-with-icon">
+                  <i class="fab fa-youtube footer-icon"></i> Youtube
+                </p>
+              </a>
+              <a href="">
+                <p class="footer__item-with-icon">
+                  <i class="fab fa-twitter footer-icon"></i> Twitter
+                </p>
+              </a>
+              <a href="">
+                <p class="footer__item-with-icon">
+                  <i class="fab fa-instagram footer-icon"></i> Instagram
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-authentication">Bản quyền thuộc về LaptopAgent</div>
+      </div>
+    </footer>
+    <div id="quick_support">
+      <div class="social-h1">
+        <img src="/img/call.webp" alt="" class="img_phone" />
+        <span class="img_phone">
+          Hotline
+          <strong class="img_phone">0123456789</strong>
+        </span>
+      </div>
+      <div class="social-fb">
+        <img src="/img/fb.webp" alt="" />
+        <span> Fanpage </span>
+      </div>
+      <div class="img_mess social-mess">
+        <img src="/img/messager.webp" alt="" class="img_mess" />
+        <span class="img_mess"> Chat FB </span>
+      </div>
+      <div class="social-zalo img_zalo">
+        <img src="/img/zalo.webp" alt="" class="img_zalo" />
+        <span class="img_zalo">
+          Zalo
+          <strong class="img_zalo">0123456789</strong>
+        </span>
+      </div>
+      <div class="social-ytb">
+        <img src="/img/ytb.webp" alt="" class="img_phone" />
+        <span> Youtube </span>
+      </div>
+    </div>
+  </body>
+</html>

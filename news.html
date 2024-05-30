@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Thông tin liên hệ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./assets/base.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./assets/style.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="main.js"></script>
+  </head>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__wrap">
+        <div class="header__with-search">
+          <a href="index.html" class="logo">
+            <img src="img/Logo.png" alt="Logo" class="header__logo" />
+          </a>
+          <a href="branch.html">
+            <p class="header__with-search-store">
+              Hệ Thống cửa hàng
+              <br />
+              <span class="store__location"> (chi nhánh Nha Trang) </span>
+            </p>
+          </a>
+          <div class="header__with-search-form">
+            <input
+              type="text"
+              class="header__with-search-input"
+              placeholder="Từ khóa..."
+            />
+            <i class="input-icon fas fa-search" style="cursor: pointer"></i>
+          </div>
+          <ul class="header__with-search-list">
+            <li class="header__with-search-item">
+              <a href="news.html">
+                <p class="header__with-search-blog">24h Công nghệ</p>
+              </a>
+            </li>
+            <li class="header__with-search-item">
+              <a href="news.html">
+                <p class="header__with-search-news">News</p>
+              </a>
+            </li>
+            <li class="header__with-search-item">
+              <i class="header__with-search-icon fas fa-phone"></i>
+              <span class="header__with-search-phone">012345678</span>
+            </li>
+            <li class="header__with-search-item">
+              <i class="header__with-search-icon far fa-user-circle"></i>
+              <div class="header__with-search-user">
+                <a href="login.html">
+                  <p class="header__with-search-login">Đăng nhập</p>
+                </a>
+                <a href="register.html">
+                  <p class="header__with-search-register">Đăng ký</p>
+                </a>
+              </div>
+            </li>
+            <li class="header__with-search-item">
+              <a href="cart.html">
+                <div class="header__with-search-cart">
+                  <i class="header__with-search-icon fas fa-shopping-bag"></i>
+                  <p class="header__with-search-cart-name">Giỏ <br />hàng</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="header__navbar">
+          <ul class="header__navbar-list">
+            <li class="header__navbar-item">
+              <a href=""> Trang Chủ </a>
+            </li>
+            <li class="header__navbar-item">
+              <a href="introduction.html"> Giới thiệu </a>
+            </li>
+            <li
+              class="header__navbar-item navbar__laptop-list header__navbar-item--has-arrow"
+            >
+              <a href=""> Laptop </a>
+              <ul class="header__navbar-laptop-list">
+                <li class="header__navbar-laptop-item">
+                  <a href="">Dell</a>
+                </li>
+                <li class="header__navbar-laptop-item">
+                  <a href="">Hp</a>
+                </li>
+                <li class="header__navbar-laptop-item">
+                  <a href="">Asus</a>
+                </li>
+                <li class="header__navbar-laptop-item">
+                  <a href="">Acer</a>
+                </li>
+                <li class="header__navbar-laptop-item">
+                  <a href="">Lenovo</a>
+                </li>
+                <li class="header__navbar-laptop-item">
+                  <a href="">Msi</a>
+                </li>
+                <li class="header__navbar-laptop-item">
+                  <a href="">Samsung</a>
+                </li>
+              </ul>
+            </li>
+            <li
+              class="header__navbar-item navbar__laptop-list--luxury header__navbar-item--has-arrow"
+            >
+              <a href=""> Mỏng nhẹ cao cấp </a>
+              <ul class="header__navbar-laptop-list">
+                <li class="header__navbar-laptop-item">
+                  <a href="">Dell</a>
+                </li>
+                <li class="header__navbar-laptop-item">
+                  <a href="">Asus</a>
+                </li>
+                <li class="header__navbar-laptop-item">
+                  <a href="">Acer</a>
+                </li>
+                <li class="header__navbar-laptop-item">
+                  <a href="">Hp</a>
+                </li>
+                <li class="header__navbar-laptop-item">
+                  <a href="">Lenovo</a>
+                </li>
+                <li class="header__navbar-laptop-item">
+                  <a href="">Thinkbook</a>
+                </li>
+                <li class="header__navbar-laptop-item">
+                  <a href="">Dell Xps</a>
+                </li>
+                <li class="header__navbar-laptop-item">
+                  <a href="">Samsung</a>
+                </li>
+              </ul>
+            </li>
+            <li class="header__navbar-item">
+              <a href=""> Gaming & đồ họa </a>
+            </li>
+            <li class="header__navbar-item">
+              <a href=""> New Outlet </a>
+            </li>
+            <li class="header__navbar-item">
+              <a href=""> Surface </a>
+            </li>
+            <li class="header__navbar-item">
+              <a href=""> Máy cũ giá rẻ </a>
+            </li>
+            <li
+              class="header__navbar-item navbar__laptop-list--accessory header__navbar-item--has-arrow"
+            >
+              <a href=""> Phụ kiện </a>
+              <ul class="header__navbar-laptop-list">
+                <li class="header__navbar-laptop-item">
+                  <a href="">Bàn phím</a>
+                </li>
+                <li class="header__navbar-laptop-item">
+                  <a href="">Chuột</a>
+                </li>
+                <li class="header__navbar-laptop-item">
+                  <a href="">Túi bao da</a>
+                </li>
+                <li class="header__navbar-laptop-item">
+                  <a href="">Bút</a>
+                </li>
+                <li class="header__navbar-laptop-item">
+                  <a href="">Kính cường lực</a>
+                </li>
+              </ul>
+            </li>
+            <li class="header__navbar-item">
+              <a href=""> Trả góp 0% </a>
+            </li>
+            <li class="header__navbar-item">
+              <a href=""> Khuyến mãi </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!-- Body content -->
+    <div class="container-f-w">
+      <div class="container">
+        <ul class="breadcrumb">
+          <li class="breadcrumb-item">
+            <a href="index.html" title="Trang chủ">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                width="12"
+                height="12"
+                viewBox="0,0,256,256"
+              >
+                <g
+                  fill="#d80000"
+                  fill-rule="nonzero"
+                  stroke="none"
+                  stroke-width="1"
+                  stroke-linecap="butt"
+                  stroke-linejoin="miter"
+                  stroke-miterlimit="10"
+                  stroke-dasharray=""
+                  stroke-dashoffset="0"
+                  font-family="none"
+                  font-weight="none"
+                  font-size="none"
+                  text-anchor="none"
+                  style="mix-blend-mode: normal"
+                >
+                  <g transform="scale(5.12,5.12)">
+                    <path
+                      d="M24.96289,1.05469c-0.20987,0.00724 -0.41214,0.08036 -0.57812,0.20898l-23,17.94727c-0.43579,0.33978 -0.51361,0.96851 -0.17383,1.4043c0.33978,0.43579 0.96851,0.51361 1.4043,0.17383l1.38477,-1.08008v26.29102c0.00006,0.55226 0.44774,0.99994 1,1h13.83203c0.10799,0.01785 0.21818,0.01785 0.32617,0h11.67383c0.10799,0.01785 0.21818,0.01785 0.32617,0h13.8418c0.55226,-0.00006 0.99994,-0.44774 1,-1v-26.29102l1.38477,1.08008c0.2819,0.21983 0.65967,0.27257 0.991,0.13833c0.33133,-0.13423 0.56586,-0.43504 0.61526,-0.7891c0.0494,-0.35406 -0.09386,-0.70757 -0.37579,-0.92736l-7.61523,-5.94141v-7.26953h-6v2.58594l-9.38477,-7.32227c-0.18607,-0.14428 -0.41707,-0.21828 -0.65234,-0.20898zM25,3.32227l19,14.82617v26.85156h-12v-19h-14v19h-12v-26.85156zM37,8h2v3.70898l-2,-1.5625zM20,28h10v17h-10z"
+                    ></path>
+                  </g>
+                </g></svg
+              >Trang chủ</a
+            >
+          </li>
+          <li><span class="slash-divider">/</span></li>
+          <li>Tin tức</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+      <div class="news__body grid__row">
+        <div class="news__main col-md-8-12">
+          <ul class="news__list">
+            <li class="news__list-item news__banner">
+              <div class="news__img-wrap">
+                <img src="/img/asus-zenbook.jpg" alt="" class="news__img" />
+              </div>
+              <div class="news__infor">
+                <div class="news__title">
+                  ASUS Zenbook DUO - Laptop đa nhiệm với chip AI tốt nhất hiện
+                  nay
+                </div>
+                <div class="news__date">22-04-2024</div>
+                <div class="news__des">
+                  Laptop đa nhiệm là laptop có khả năng chạy đồng thời nhiều ứng
+                  dụng một cách mượt mà và hiệu quả. Tuy nhiên, laptop đa nhiệm
+                  còn nằm ở chỗ có thể biến đổi linh hoạt để phù hợp cho nhiều
+                  tình huống khác nhau. Và, ASUS Zenbook DUO chính là laptop đa
+                  nhiệm làm tốt việc này
+                </div>
+              </div>
+            </li>
+            <li class="news__list-item">
+              <div class="news__img-wrap">
+                <img src="/img/news__01.jpg" alt="" class="news__img" />
+              </div>
+              <div class="news__infor">
+                <div class="news__title">
+                  Acer Gaming Nitro Series: Laptop gaming mạnh nhất phân khúc
+                  tầm trung
+                </div>
+                <div class="news__date">10-04-2024</div>
+                <div class="news__des">
+                  Với sự kết hợp hoàn hảo giữa thiết kế đẳng cấp, giá thành phải
+                  chăng và hiệu năng vượt trội, Acer Gaming Nitro Series 2024
+                  thu hút sự quan tâm của cộng đồng game thủ.
+                </div>
+              </div>
+            </li>
+            <div class="line"></div>
+            <li class="news__list-item">
+              <div class="news__img-wrap">
+                <img src="/img/news__02.jpg" alt="" class="news__img" />
+              </div>
+              <div class="news__infor">
+                <div class="news__title">
+                  Acer Nitro V: Laptop gaming tầm trung chiến mượt các tựa game
+                  bom tấn 2024
+                </div>
+                <div class="news__date">10-04-2024</div>
+                <div class="news__des">
+                  Acer Nitro V ANV15-51 là phiên bản laptop gaming quốc dân mới,
+                  với ngoại hình lạ mắt nhưng cũng không kém phần thân quen. Kết
+                  hợp với những điểm mạnh sẵn có về cấu hình cũng như mức giá,
+                  mang đến một phiên bản “quốc dân” của theo một cách mới mẻ
+                  hơn.
+                </div>
+              </div>
+            </li>
+            <div class="line"></div>
+            <li class="news__list-item">
+              <div class="news__img-wrap">
+                <img src="/img/news__03.jpg" alt="" class="news__img" />
+              </div>
+              <div class="news__infor">
+                <div class="news__title">
+                  Acer Swift Go 14: Laptop AI thiết thực nhất giá chỉ từ 20
+                  triệu
+                </div>
+                <div class="news__date">09-04-2024</div>
+                <div class="news__des">
+                  Acer đã chính thức trình làng laptop Acer Swift Go 14
+                  (SFG14-73) sản phẩm laptop mới nhất của hãng. Máy trang bị CPU
+                  Intel® Core™ Ultra chứa Neural Processing Unit (NPU)
+                </div>
+              </div>
+            </li>
+            <div class="line"></div>
+            <li class="news__list-item">
+              <div class="news__img-wrap">
+                <img src="/img/news__04.jpg" alt="" class="news__img" />
+              </div>
+              <div class="news__infor">
+                <div class="news__title">
+                  Acer giới thiệu laptop gaming cao cấp Predator Helios Neo 16
+                  2024, Gen 14 mới nhất
+                </div>
+                <div class="news__date">29-02-2024</div>
+                <div class="news__des">
+                  Acer Predator Helios Neo 16 Gen 14 được xem là bước tiến đột
+                  phá trong việc cung cấp trải nghiệm gaming hoàn hảo và hiệu
+                  suất mạnh mẽ đến với cộng đồng game thủ.
+                </div>
+              </div>
+            </li>
+            <div class="line"></div>
+            <li class="news__list-item">
+              <div class="news__img-wrap">
+                <img src="/img/news__05.jpg" alt="" class="news__img" />
+              </div>
+              <div class="news__infor">
+                <div class="news__title">
+                  Predator Helios 16 và Helios 18 2024: Bộ đôi Laptop Gaming gen
+                  14 mạnh nhất đến từ Acer
+                </div>
+                <div class="news__date">29-02-2024</div>
+                <div class="news__des">
+                  Acer chính thức giới thiệu phiên bản mới nhất của dòng Laptop
+                  Gaming cao cấp, bộ đôi Predator Helios 16 &amp; Helios 18
+                  trang bị CPU Core I9 thế hệ 14 mạnh nhất
+                </div>
+              </div>
+            </li>
+            <div class="line"></div>
+            <li class="news__list-item">
+              <div class="news__img-wrap">
+                <img src="/img/news__06.jpg" alt="" class="news__img" />
+              </div>
+              <div class="news__infor">
+                <div class="news__title">
+                  Vì sao máy tính của bạn vẫn tiêu thụ điện ngay cả khi đã
+                  Shutdown hoặc Hibernate
+                </div>
+                <div class="news__date">22-04-2024</div>
+                <div class="news__des">
+                  Vậy tại sao máy tính của bạn vẫn sử dụng điện khi đã tắt máy.
+                  Câu trả lời sẽ được giải đáp ngay sau đây với Phúc Anh
+                </div>
+              </div>
+            </li>
+            <div class="line"></div>
+            <li class="news__list-item">
+              <div class="news__img-wrap">
+                <img src="/img/news__07.jpg" alt="" class="news__img" />
+              </div>
+              <div class="news__infor">
+                <div class="news__title">
+                  [Tin Tức] Cooler Master giới thiệu bộ nguồn PC mới mang tên V
+                  Platinum V2
+                </div>
+                <div class="news__date">23-01-2024</div>
+                <div class="news__des">
+                  Cooler Master, một trong những nhà sản xuất, thương hiệu hàng
+                  đầu về phần cứng PC, hôm nay đã công bố bộ cấp nguồn (PSU) V
+                  Platinum V2.
+                </div>
+              </div>
+            </li>
+            <div class="line"></div>
+            <li class="news__list-item">
+              <div class="news__img-wrap">
+                <img src="/img/news__08.jpg" alt="" class="news__img" />
+              </div>
+              <div class="news__infor">
+                <div class="news__title">
+                  MSI giới thiệu loạt laptop mới hỗ trợ AI tại CES 2024
+                </div>
+                <div class="news__date">11-01-2024</div>
+                <div class="news__des">
+                  Cơn bão AI đang trở thành tâm điểm của giới công nghệ, và với
+                  tư cách là một trong những thương hiệu hàng đầu về laptop, MSI
+                  cũng không bỏ lỡ cuộc chơi này
+                </div>
+              </div>
+            </li>
+            <div class="line"></div>
+            <li class="news__list-item">
+              <div class="news__img-wrap">
+                <img src="/img/news__09.jpg" alt="" class="news__img" />
+              </div>
+              <div class="news__infor">
+                <div class="news__title">
+                  Hướng dẫn bạn cách vệ sinh màn hình laptop đúng cách, tránh bị
+                  trầy xước
+                </div>
+                <div class="news__date">29-03-2024</div>
+                <div class="news__des">
+                  Trong bài viết sau đây của Phúc Anh sẽ Hướng dẫn bạn cách vệ
+                  sinh màn hình laptop đúng cách, tránh bị trầy xước cho từng
+                  loại vết bẩn bám trên màn hình
+                </div>
+              </div>
+            </li>
+            <div class="line"></div>
+            <li class="news__list-item">
+              <div class="news__img-wrap">
+                <img src="/img/news__10.jpg" alt="" class="news__img" />
+              </div>
+              <div class="news__infor">
+                <div class="news__title">
+                  Hướng dẫn các thao tác cơ bản bạn nên biết khi sử dụng máy
+                  tính Chromebook
+                </div>
+                <div class="news__date">22-04-2024</div>
+                <div class="news__des">
+                  Samsung Galaxy Chromebook Go là giải pháp thay thế tốt trong
+                  phân khúc giá mà Samsung cung cấp cho người dùng văn phòng.
+                </div>
+              </div>
+            </li>
+            <div class="line"></div>
+            <li class="news__list-item">
+              <div class="news__img-wrap">
+                <img src="/img/news__11.jpg" alt="" class="news__img" />
+              </div>
+              <div class="news__infor">
+                <div class="news__title">
+                  [Review] Máy in phun màu đa năng HP Smart Tank 580: Tính năng
+                  Thông minh, in đẹp nhưng cần cải tiến
+                </div>
+                <div class="news__date">22-04-2024</div>
+                <div class="news__des">
+                  Máy in đa năng HP Smart Tank 580 là chiếc máy in phun màu tích
+                  hợp in, scan, copy, in qua wifi là giải pháp in ấn hoàn hảo
+                  cho văn phòng, gia đình, doanh nghiệp nhỏ với chi phí thấp.
+                  Nhưng chiếc máy in này có điều gì phải cải tiến?
+                </div>
+              </div>
+            </li>
+            <div class="line"></div>
+            <li class="news__list-item">
+              <div class="news__img-wrap">
+                <img src="/img/news__12.jpg" alt="" class="news__img" />
+              </div>
+              <div class="news__infor">
+                <div class="news__title">
+                  [Tư vấn] Những lưu ý bạn nên biết khi chọn iPad cho người lớn
+                  tuổi
+                </div>
+                <div class="news__date">20-02-2024</div>
+                <div class="news__des">
+                  iPad không chỉ là chiếc tablet được giới trẻ lựa chọn với khả
+                  năng thay thế laptop mà còn là món quà ý nghĩa mà họ dành tặng
+                  ba mẹ mình, giúp ba mẹ kết nối với con cháu, cập nhật thông
+                  tin và giải trí dễ dàng trên màn hình rộng hơn 10 inch. Nếu
+                  bạn còn đang băn khoăn chưa lựa chọn được iPad phù hợp người
+                  lớn tuổi thì dưới đây là một số lưu ý khi chọn mua iPad cho bố
+                  mẹ mà bạn có thể tham khảo:
+                </div>
+              </div>
+            </li>
+            <div class="line"></div>
+          </ul>
+          <div class="paging-wrap">
+            <ul class="paging">
+              <li class="paging-item">1</li>
+              <li class="paging-item">2</li>
+              <li class="paging-item">3</li>
+              <li class="paging-item">4</li>
+              <li class="paging-item">5</li>
+              <li class="paging-item">6</li>
+              <li class="paging-item">7</li>
+              <li class="paging-item">>></li>
+            </ul>
+          </div>
+        </div>
+        <div class="news__aside col-md-4-12">
+          <div class="block-news">
+            <div class="block-news-title">
+              <p class="h-title">
+                <span class="h-title-span">Tin mới nhất</span>
+              </p>
+            </div>
+          </div>
+          <div class="news__aside-banner">
+            <div class="news__aside-banner-img-wrap">
+              <img
+                src="/img/aside__01.jpg"
+                alt=""
+                class="news__aside-banner-img"
+              />
+            </div>
+            <div class="news__aside-infor">
+              <h3 class="news__aside-title">
+                [Khuyến Mại] Săn Deal cuối tuần - Giảm giá cực sốc
+              </h3>
+              <div class="news__aside-date">10-05-2024</div>
+              <div class="news__aside-banner-des">
+                "Săn Deal cuối tuần - Giảm giá cực sốc" với ưu đãi giảm giá hấp
+                dẫn lên đến 1 triệu đồng tại Phúc Anh Smart World vào thứ 7 và
+                chủ nhật hàng tuần
+              </div>
+            </div>
+          </div>
+          <div class="news__aside">
+            <ul class="news__aside-list">
+              <li class="news__aside-item">
+                <div class="news__aside-item-img-wrap">
+                  <img src="/img/news__13.jpg" alt="" />
+                </div>
+                <div class="news__aside-infor">
+                  <h3 class="news__aside-title">
+                    [Khuyến Mại] Săn Deal cuối tuần - Giảm giá cực sốc
+                  </h3>
+                  <div class="news__aside-date">10-05-2024</div>
+                </div>
+              </li>
+              <li class="news__aside-item">
+                <div class="news__aside-item-img-wrap">
+                  <img src="/img/aside__02.jpg" alt="" />
+                </div>
+                <div class="news__aside-infor">
+                  <h3 class="news__aside-title">
+                    [Khuyến Mại] Săn Deal cuối tuần - Giảm giá cực sốc
+                  </h3>
+                  <div class="news__aside-date">10-05-2024</div>
+                </div>
+              </li>
+              <li class="news__aside-item">
+                <div class="news__aside-item-img-wrap">
+                  <img src="/img/news__13jpg.jpg" alt="" />
+                </div>
+                <div class="news__aside-infor">
+                  <h3 class="news__aside-title">
+                    [Khuyến Mại] Săn Deal cuối tuần - Giảm giá cực sốc
+                  </h3>
+                  <div class="news__aside-date">10-05-2024</div>
+                </div>
+              </li>
+            </ul>
+            <div class="block-news">
+              <div class="block-news-title">
+                <p class="h-title">
+                  <span class="h-title-span">Bài viết nhiều người xem</span>
+                </p>
+              </div>
+            </div>
+            <div class="news__post">
+              <div class="news__aside-infor">
+                <h3 class="news__aside-title">
+                  [Khuyến Mại] Săn Deal cuối tuần - Giảm giá cực sốc
+                </h3>
+                <div class="news__aside-date">10-05-2024</div>
+              </div>
+              <div class="line"></div>
+              <div class="news__aside-infor">
+                <h3 class="news__aside-title">
+                  [Khuyến Mại] Săn Deal cuối tuần - Giảm giá cực sốc
+                </h3>
+                <div class="news__aside-date">10-05-2024</div>
+              </div>
+              <div class="line"></div>
+              <div class="news__aside-infor">
+                <h3 class="news__aside-title">
+                  [Khuyến Mại] Săn Deal cuối tuần - Giảm giá cực sốc
+                </h3>
+                <div class="news__aside-date">10-05-2024</div>
+              </div>
+              <div class="line"></div>
+              <div class="news__aside-infor">
+                <h3 class="news__aside-title">
+                  [Khuyến Mại] Săn Deal cuối tuần - Giảm giá cực sốc
+                </h3>
+                <div class="news__aside-date">10-05-2024</div>
+              </div>
+              <div class="line"></div>
+              <div class="news__aside-infor">
+                <h3 class="news__aside-title">
+                  [Khuyến Mại] Săn Deal cuối tuần - Giảm giá cực sốc
+                </h3>
+                <div class="news__aside-date">10-05-2024</div>
+              </div>
+              <div class="line"></div>
+              <div class="news__aside-infor">
+                <h3 class="news__aside-title">
+                  [Khuyến Mại] Săn Deal cuối tuần - Giảm giá cực sốc
+                </h3>
+                <div class="news__aside-date">10-05-2024</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footeronous -->
+    <footer>
+      <div class="footer__wrapper">
+        <div class="container">
+          <div class="footer-list">
+            <div class="footer__item">
+              <h3 class="footer__item-heading">Công Ty TNHH LaptopAgent</h3>
+              <p class="footer__item-with-icon">
+                <i class="fas fa-map-marker-alt footer-icon"></i> Khu đô thị
+                Vĩnh Điềm Trung, phường Lọc Thọ, tỉnh Khánh Hòa, thành phố Nha
+                Trang
+              </p>
+              <p class="footer__item-with-icon">
+                <i class="fas fa-phone-square-alt footer-icon"></i> Hotline:
+                0123 456 789
+              </p>
+              <p class="footer__item-with-icon">
+                <i class="fas fa-envelope-square footer-icon"></i> Email:
+                LaptopAgent@supportmail.com.vn
+              </p>
+              <p class="footer__item-with-icon">
+                <i class="fas fa-globe footer-icon"></i> Website:
+                laptopagent.com.vn
+              </p>
+            </div>
+            <div class="footer__item">
+              <h3 class="footer__item-heading">Truy cập nhanh</h3>
+              <a href="">
+                <p class="footer__item-with-icon">>&nbsp; Trang chủ</p>
+              </a>
+              <a href="">
+                <p class="footer__item-with-icon">>&nbsp; Giới thiệu</p>
+              </a>
+              <a href="">
+                <p class="footer__item-with-icon">>&nbsp; Tư vấn laptop</p>
+              </a>
+              <a href="">
+                <p class="footer__item-with-icon">>&nbsp; Sự kiện</p>
+              </a>
+              <a href="">
+                <p class="footer__item-with-icon">>&nbsp; Liên hệ</p>
+              </a>
+            </div>
+            <div class="footer__item">
+              <h3 class="footer__item-heading">Danh mục sản phẩm</h3>
+              <a href="">
+                <p class="footer__item-with-icon">>&nbsp; Laptop Acer</p>
+              </a>
+              <a href="">
+                <p class="footer__item-with-icon">>&nbsp; Laptop Legion</p>
+              </a>
+              <a href="">
+                <p class="footer__item-with-icon">>&nbsp; Laptop HP</p>
+              </a>
+              <a href="">
+                <p class="footer__item-with-icon">>&nbsp; Laptop Samsung</p>
+              </a>
+              <a href="">
+                <p class="footer__item-with-icon">> &nbsp;Laptop Surface</p>
+              </a>
+              <a href="">
+                <p class="footer__item-with-icon">>&nbsp; Laptop siêu rẻ</p>
+              </a>
+            </div>
+            <div class="footer__item">
+              <h3 class="footer__item-heading">Follow us</h3>
+              <a href="">
+                <p class="footer__item-with-icon">
+                  <i class="fab fa-facebook footer-icon"></i> Facebook
+                </p>
+              </a>
+              <a href="">
+                <p class="footer__item-with-icon">
+                  <i class="fab fa-youtube footer-icon"></i> Youtube
+                </p>
+              </a>
+              <a href="">
+                <p class="footer__item-with-icon">
+                  <i class="fab fa-twitter footer-icon"></i> Twitter
+                </p>
+              </a>
+              <a href="">
+                <p class="footer__item-with-icon">
+                  <i class="fab fa-instagram footer-icon"></i> Instagram
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-authentication">Bản quyền thuộc về LaptopAgent</div>
+      </div>
+    </footer>
+    <div id="quick_support">
+      <div class="social-h1">
+        <img src="/img/call.webp" alt="" class="img_phone" />
+        <span class="img_phone">
+          Hotline
+          <strong class="img_phone">0123456789</strong>
+        </span>
+      </div>
+      <div class="social-fb">
+        <img src="/img/fb.webp" alt="" />
+        <span> Fanpage </span>
+      </div>
+      <div class="img_mess social-mess">
+        <img src="/img/messager.webp" alt="" class="img_mess" />
+        <span class="img_mess"> Chat FB </span>
+      </div>
+      <div class="social-zalo img_zalo">
+        <img src="/img/zalo.webp" alt="" class="img_zalo" />
+        <span class="img_zalo">
+          Zalo
+          <strong class="img_zalo">0123456789</strong>
+        </span>
+      </div>
+      <div class="social-ytb">
+        <img src="/img/ytb.webp" alt="" class="img_phone" />
+        <span> Youtube </span>
+      </div>
+    </div>
+  </div>
+</html>

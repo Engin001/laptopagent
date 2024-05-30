@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Thông tin liên hệ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./assets/base.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./assets/style.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="main.js"></script>
+  </head>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__wrap">
+        <div class="header__with-search">
+          <a href="index.html" class="logo">
+            <img src="img/Logo.png" alt="Logo" class="header__logo" />
+          </a>
+          <a href="branch.html">
+            <p class="header__with-search-store">
+              Hệ Thống cửa hàng
+              <br />
+              <span class="store__location"> (chi nhánh Nha Trang) </span>
+            </p>
+          </a>
+          <div class="header__with-search-form">
+            <input
+              type="text"
+              class="header__with-search-input"
+              placeholder="Từ khóa..."
+            />
+            <i class="input-icon fas fa-search" style="cursor: pointer"></i>
+          </div>
+          <ul class="header__with-search-list">
+            <li class="header__with-search-item">
+              <a href="news.html">
+                <p class="header__with-search-blog">24h Công nghệ</p>
+              </a>
+            </li>
+            <li class="header__with-search-item">
+              <a href="news.html">
+                <p class="header__with-search-news">News</p>
+              </a>
+            </li>
+            <li class="header__with-search-item">
+              <i class="header__with-search-icon fas fa-phone"></i>
+              <span class="header__with-search-phone">012345678</span>
+            </li>
+            <li class="header__with-search-item">
+              <i class="header__with-search-icon far fa-user-circle"></i>
+              <div class="header__with-search-user">
+                <a href="login.html">
+                  <p class="header__with-search-login">Đăng nhập</p>
+                </a>
+                <a href="register.html">
+                  <p class="header__with-search-register">Đăng ký</p>
+                </a>
+              </div>
+            </li>
+            <li class="header__with-search-item">
+              <a href="cart.html">
+                <div class="header__with-search-cart">
+                  <i class="header__with-search-icon fas fa-shopping-bag"></i>
+                  <p class="header__with-search-cart-name">Giỏ <br />hàng</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="header__navbar">
+          <ul class="header__navbar-list">
+            <li class="header__navbar-item">
+              <a href=""> Trang Chủ </a>
+            </li>
+            <li class="header__navbar-item">
+              <a href="introduction.html"> Giới thiệu </a>
+            </li>
+            <li
+              class="header__navbar-item navbar__laptop-list header__navbar-item--has-arrow"
+            >
+              <a href=""> Laptop </a>
+              <ul class="header__navbar-laptop-list">
+                <li class="header__navbar-laptop-item">
+                  <a href="">Dell</a>
+                </li>
+                <li class="header__navbar-laptop-item">
+                  <a href="">Hp</a>
+                </li>
+                <li class="header__navbar-laptop-item">
+                  <a href="">Asus</a>
+                </li>
+                <li class="header__navbar-laptop-item">
+                  <a href="">Acer</a>
+                </li>
+                <li class="header__navbar-laptop-item">
+                  <a href="">Lenovo</a>
+                </li>
+                <li class="header__navbar-laptop-item">
+                  <a href="">Msi</a>
+                </li>
+                <li class="header__navbar-laptop-item">
+                  <a href="">Samsung</a>
+                </li>
+              </ul>
+            </li>
+            <li
+              class="header__navbar-item navbar__laptop-list--luxury header__navbar-item--has-arrow"
+            >
+              <a href=""> Mỏng nhẹ cao cấp </a>
+              <ul class="header__navbar-laptop-list">
+                <li class="header__navbar-laptop-item">
+                  <a href="">Dell</a>
+                </li>
+                <li class="header__navbar-laptop-item">
+                  <a href="">Asus</a>
+                </li>
+                <li class="header__navbar-laptop-item">
+                  <a href="">Acer</a>
+                </li>
+                <li class="header__navbar-laptop-item">
+                  <a href="">Hp</a>
+                </li>
+                <li class="header__navbar-laptop-item">
+                  <a href="">Lenovo</a>
+                </li>
+                <li class="header__navbar-laptop-item">
+                  <a href="">Thinkbook</a>
+                </li>
+                <li class="header__navbar-laptop-item">
+                  <a href="">Dell Xps</a>
+                </li>
+                <li class="header__navbar-laptop-item">
+                  <a href="">Samsung</a>
+                </li>
+              </ul>
+            </li>
+            <li class="header__navbar-item">
+              <a href=""> Gaming & đồ họa </a>
+            </li>
+            <li class="header__navbar-item">
+              <a href=""> New Outlet </a>
+            </li>
+            <li class="header__navbar-item">
+              <a href=""> Surface </a>
+            </li>
+            <li class="header__navbar-item">
+              <a href=""> Máy cũ giá rẻ </a>
+            </li>
+            <li
+              class="header__navbar-item navbar__laptop-list--accessory header__navbar-item--has-arrow"
+            >
+              <a href=""> Phụ kiện </a>
+              <ul class="header__navbar-laptop-list">
+                <li class="header__navbar-laptop-item">
+                  <a href="">Bàn phím</a>
+                </li>
+                <li class="header__navbar-laptop-item">
+                  <a href="">Chuột</a>
+                </li>
+                <li class="header__navbar-laptop-item">
+                  <a href="">Túi bao da</a>
+                </li>
+                <li class="header__navbar-laptop-item">
+                  <a href="">Bút</a>
+                </li>
+                <li class="header__navbar-laptop-item">
+                  <a href="">Kính cường lực</a>
+                </li>
+              </ul>
+            </li>
+            <li class="header__navbar-item">
+              <a href=""> Trả góp 0% </a>
+            </li>
+            <li class="header__navbar-item">
+              <a href=""> Khuyến mãi </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!-- Body content -->
+    <div class="container-f-w">
+      <div class="container">
+        <ul class="breadcrumb">
+          <li class="breadcrumb-item">
+            <a href="index.html" title="Trang chủ">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                width="12"
+                height="12"
+                viewBox="0,0,256,256"
+              >
+                <g
+                  fill="#d80000"
+                  fill-rule="nonzero"
+                  stroke="none"
+                  stroke-width="1"
+                  stroke-linecap="butt"
+                  stroke-linejoin="miter"
+                  stroke-miterlimit="10"
+                  stroke-dasharray=""
+                  stroke-dashoffset="0"
+                  font-family="none"
+                  font-weight="none"
+                  font-size="none"
+                  text-anchor="none"
+                  style="mix-blend-mode: normal"
+                >
+                  <g transform="scale(5.12,5.12)">
+                    <path
+                      d="M24.96289,1.05469c-0.20987,0.00724 -0.41214,0.08036 -0.57812,0.20898l-23,17.94727c-0.43579,0.33978 -0.51361,0.96851 -0.17383,1.4043c0.33978,0.43579 0.96851,0.51361 1.4043,0.17383l1.38477,-1.08008v26.29102c0.00006,0.55226 0.44774,0.99994 1,1h13.83203c0.10799,0.01785 0.21818,0.01785 0.32617,0h11.67383c0.10799,0.01785 0.21818,0.01785 0.32617,0h13.8418c0.55226,-0.00006 0.99994,-0.44774 1,-1v-26.29102l1.38477,1.08008c0.2819,0.21983 0.65967,0.27257 0.991,0.13833c0.33133,-0.13423 0.56586,-0.43504 0.61526,-0.7891c0.0494,-0.35406 -0.09386,-0.70757 -0.37579,-0.92736l-7.61523,-5.94141v-7.26953h-6v2.58594l-9.38477,-7.32227c-0.18607,-0.14428 -0.41707,-0.21828 -0.65234,-0.20898zM25,3.32227l19,14.82617v26.85156h-12v-19h-14v19h-12v-26.85156zM37,8h2v3.70898l-2,-1.5625zM20,28h10v17h-10z"
+                    ></path>
+                  </g>
+                </g></svg
+              >Trang chủ</a
+            >
+          </li>
+          <li><span class="slash-divider">/</span></li>
+          <li>Lenovo Legion</li>
+          <li><span class="slash-divider">/</span></li>
+          <li>
+            [New 100%] Lenovo Legion Slim 5 (Ryzen 7 7840H, RTX 4060-8GB, Ram
+            16GB, SSD 512GB, Màn 15,6' FHD 144Hz)
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+      <div class="product_site">
+        <h3 class="product_site-heading">
+          [New 100%] Lenovo Legion Slim 5 (Ryzen 7 7840H, RTX 4060-8GB, Ram
+          16GB, SSD 512GB, Màn 15,6' FHD 144Hz)
+        </h3>
+        <div class="grid__row">
+          <div class="col-md-4-12">
+            <div class="product_detail-img-wrap">
+              <img
+                src="./img/product_img/img_01.webp"
+                alt=""
+                class="product_detail-img"
+              />
+            </div>
+            <ul class="small-img-list">
+              <li class="small-img-wrap">
+                <img
+                  src="./img/product_img/img_01.webp"
+                  alt=""
+                  class="small-img"
+                />
+              </li>
+              <li class="small-img-wrap">
+                <img
+                  src="/img/product_img/img_02.webp"
+                  alt=""
+                  class="small-img"
+                />
+              </li>
+              <li class="small-img-wrap">
+                <img
+                  src="/img/product_img/img_03.webp"
+                  alt=""
+                  class="small-img"
+                />
+              </li>
+            </ul>
+
+            <fieldset class="free-gifts">
+              <legend>
+                <img src="./img/product_img/gift.webp" alt="" />
+                Quà tặng và Khuyến mãi
+              </legend>
+              <ul class="gift-list">
+                <li class="gift-list-item">
+                  <div class="gift-list-img-wrap">
+                    <img
+                      src="./img/product_img/km_product1.webp"
+                      alt=""
+                      class="gift-list-img"
+                    />
+                  </div>
+                  <p class="gift-list-text">
+                    Tặng Balo thời trang, chuột không dây, bàn di trị giá 650k
+                  </p>
+                </li>
+                <li class="gift-list-item">
+                  <div class="gift-list-img-wrap">
+                    <img
+                      src="./img/product_img/km_product1.webp"
+                      alt=""
+                      class="gift-list-img"
+                    />
+                  </div>
+                  <p class="gift-list-text">
+                    Tặng gói cài đặt vệ sinh máy trọn đời trị giá 1.500.000
+                  </p>
+                </li>
+                <li class="gift-list-item">
+                  <div class="gift-list-img-wrap">
+                    <img
+                      src="./img/product_img/km_product1.webp"
+                      alt=""
+                      class="gift-list-img"
+                    />
+                  </div>
+                  <p class="gift-list-text">
+                    Tặng win bản quyền đi theo máy trị giá 1.000.000
+                  </p>
+                </li>
+                <li class="gift-list-item">
+                  <div class="gift-list-img-wrap">
+                    <img
+                      src="./img/product_img/km_product1.webp"
+                      alt=""
+                      class="gift-list-img"
+                    />
+                  </div>
+                  <p class="gift-list-text">
+                    Tặng Voucher giảm giá cho lần mua sau lên đến 1.990.000
+                  </p>
+                </li>
+                <li class="gift-list-item">
+                  <div class="gift-list-img-wrap">
+                    <img
+                      src="./img/product_img/km_product1.webp"
+                      alt=""
+                      class="gift-list-img"
+                    />
+                  </div>
+                  <p class="gift-list-text">
+                    Giao hàng Miễn phí toàn quốc - Giao hỏa tốc Hà Nội
+                  </p>
+                </li>
+              </ul>
+            </fieldset>
+          </div>
+          <div class="col-md-5-12">
+            <div class="product-detail-price">
+              <div class="product-detail-infor">
+                <label> Giá:</label>
+                <span class="special-price">24.690.000₫</span>
+                <span class="donvi">/Chiếc</span>
+              </div>
+              <div class="product-detail-infor">
+                <label> Giá thị trường:</label>
+                <del class="old-price">32.890.000₫</del>
+              </div>
+              <div class="product-detail-infor">
+                <label> Tiết kiệm:</label>
+                <span class="save-price">8.200.000₫</span>
+                <span class="label-product">25%</span>
+              </div>
+            </div>
+            <div class="product__control">
+              <h3 class="product-warranty">Bảo hành</h3>
+              <div class="time-warranty">
+                12 THÁNG
+                <span class="check-icon">
+                  <i class="fas fa-check"></i>
+                </span>
+              </div>
+              <div class="product-control-wrap">
+                <p class="product-control-heading">Số lượng</p>
+                <ul class="product-control-list">
+                  <li class="product-control-item operator-icon">
+                    <svg
+                      class="w-6 h-6 text-gray-800 dark:text-white"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="25"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M5 12h14"
+                      />
+                    </svg>
+                  </li>
+                  <li class="product-control-item operator-icon">+</li>
+                  <li class="product-control-item number-control">
+                    <input type="text" value="1" />
+                  </li>
+                  <li class="product-control-item">
+                    <svg
+                      class="w-6 h-6 text-gray-800 dark:text-white"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7h-1M8 7h-.688M13 5v4m-2-2h4"
+                      />
+                    </svg>
+                    Thêm vào giỏ
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <ul class="payment_list">
+              <li class="payment_item">
+                <strong>MUA NGAY</strong>
+                <p class="payment_item-text">
+                  Giao Tận Nơi Hoặc Nhận Tại Cửa Hàng
+                </p>
+              </li>
+              <li class="payment_item">
+                <strong>TRẢ GÓP QUA THẺ</strong>
+                <p class="payment_item-text">Visa, Master, JCB</p>
+              </li>
+              <li class="payment_item">
+                <strong>MUA NGAY - TRẢ SAU</strong>
+                <div class="img-payment">
+                  <img
+                    src="https://pc.baokim.vn/platform/img/home-paylater-ngang-small.svg"
+                    alt=""
+                  />
+                </div>
+              </li>
+            </ul>
+            <div class="payment_vourcher">
+              <div class="payment_vourcher-header">
+                <div class="payment_vourcher-header-wrap">
+                  <h3 class="payment_vourcher-heading">
+                    ƯU ĐÃI KHI THANH TOÁN
+                    <span class="img-payment" style="display: inline-block">
+                      <img
+                        src="https://pc.baokim.vn/platform/img/home-paylater-ngang-small.svg"
+                        alt=""
+                      />
+                    </span>
+                  </h3>
+                </div>
+                <p class="payment_vourcher-heading-sup">
+                  (Sử dụng khi XÁC NHẬN KHOẢN VAY trên trang của Tổ chức Tài
+                  chính)
+                </p>
+              </div>
+              <ul class="payment_vourcher-list">
+                <li class="payment_vourcher-item">
+                  <div class="payment_vourcher-img-wrap">
+                    <img
+                      src="https://pc.baokim.vn/platform/img/home-paylater-vuong-small.svg"
+                      alt=""
+                    />
+                  </div>
+                  <p class="payment_vourcher-text">
+                    Giảm 5% không giới hạn giá trị khuyến mãi tối đa, cho đơn
+                    hàng từ 53K
+                  </p>
+                  <div class="payment_vourcher-label">
+                    <img
+                      src="https://pc.baokim.vn/platform/img/fire-promotion.svg"
+                      alt=""
+                    />
+                    <p class="labe__voucher-text">ƯU ĐÃI HOT</p>
+                  </div>
+                </li>
+                <li class="payment_vourcher-item">
+                  <div class="payment_vourcher-img-wrap">
+                    <img
+                      src="https://pc.baokim.vn/platform/img/home-paylater-vuong-small.svg"
+                      alt=""
+                    />
+                  </div>
+                  <p class="payment_vourcher-text">
+                    Giảm 30K cho đơn hàng từ 120K
+                  </p>
+                </li>
+              </ul>
+              <div class="promotion-footer">
+                <p>Powered by</p>
+                <img
+                  src="https://pc.baokim.vn/platform/img/bk-logo-promotion.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3-12">
+            <a class="hethong" href="">Xem địa chỉ shop gần bạn</a>
+            <div class="product-policy">
+              <ul class="product-policy-list">
+                <li class="product-policy-item">
+                  <a href="" class="hethong"
+                    >Hướng dẫn mua hàng&nbsp;(khách ở xa)</a
+                  >
+                </li>
+                <li class="product-policy-item">
+                  Giao hàng <strong>miễn phí</strong> toàn quốc, giao hỏa tốc
+                  bán kính 30km <a href="" class="hethong">Tìm hiểu</a>
+                </li>
+                <li class="product-policy-item">
+                  <strong>1 đổi 1 trong 15 ngày </strong> với sản phẩm lỗi
+                  <a href="" class="hethong">Tìm hiểu</a>
+                </li>
+              </ul>
+            </div>
+            <div class="product-why">
+              <h3 class="product-why-heading">VÌ SAO NÊN CHỌN LAPTOP AGENT</h3>
+              <ul class="product-why-list">
+                <li class="product-why-item">
+                  <img
+                    src="//bizweb.dktcdn.net/100/362/971/themes/928790/assets/icon_why1.png?1716517881828"
+                    alt=""
+                  />
+                  <p class="product-why-text">
+                    Hệ thống <strong>bán buôn, bán lẻ</strong> uy tín chất lượng
+                    hàng đầu
+                  </p>
+                </li>
+                <li class="product-why-item">
+                  <img
+                    src="//bizweb.dktcdn.net/100/362/971/themes/928790/assets/icon_why2.png?1716517881828"
+                    alt=""
+                  />
+                  <p class="product-why-text">
+                    Hàng <strong>chính hãng</strong>, giá Rẻ Nhất thị trường
+                  </p>
+                </li>
+                <li class="product-why-item">
+                  <img
+                    src="//bizweb.dktcdn.net/100/362/971/themes/928790/assets/icon_why3.png?1716517881828"
+                    alt=""
+                  />
+                  <p class="product-why-text">
+                    Nhà phân phối laptop <strong>hàng đầu</strong> toàn quốc
+                  </p>
+                </li>
+                <li class="product-why-item">
+                  <img
+                    src="//bizweb.dktcdn.net/100/362/971/themes/928790/assets/icon_why4.png?1716517881828"
+                    alt=""
+                  />
+                  <p class="product-why-text">
+                    Hỗ trợ kỹ thuật <strong>trọn đời</strong> với đội ngũ KTV
+                    kinh nghiệm lâu năm
+                  </p>
+                </li>
+                <li class="product-why-item">
+                  <img
+                    src="//bizweb.dktcdn.net/100/362/971/themes/928790/assets/icon_why5.png?1716517881828"
+                    alt=""
+                  />
+                  <p class="product-why-text">
+                    Dịch vụ bảo hành, bảo trì sản phẩm nhanh số
+                    <strong>1 toàn quốc</strong>
+                  </p>
+                </li>
+                <li class="product-why-item">
+                  <img
+                    src="//bizweb.dktcdn.net/100/362/971/themes/928790/assets/icon_why6.png?1716517881828"
+                    alt=""
+                  />
+                  <p class="product-why-text">
+                    Giải pháp đồng bộ, trải nghiệm thực tế, giao hàng
+                    <strong>miễn phí </strong> toàn quốc, giao hỏa tốc bán kính
+                    30km
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="grid__row">
+            <div class="col-md-9-12">
+              <div class="product_spec-detail">
+                <h3 class="product_spec-detail-heading">Thông tin chi tiết</h3>
+                <h1>Lenovo Legion Slim 5 2023</h1>
+                <p>
+                  Lenovo Legion Slim 5 2023 Ryzen 7 có cấu hình mạnh mẽ với CPU
+                  AMD Zen 4 và đồ họa NVidia GeForce RTX 4060 mạnh mẽ, đáp ứng
+                  tốt nhu cầu giải trí, làm việc và học tập của các bạn.
+                </p>
+                <img src="/img/product_img/img_04.jpg" alt="" />
+                <h2 class="bough">Legion slim 5 2023 AMD specs:</h2>
+                <ul>
+                  <li>
+                    <p><strong>CPU: AMD Ryzen 7 7840H "Zen 4" </strong>(8 nhân 16
+                      luồng, tần số cơ bản 3.8GHz, có thể đạt tới 5.1GHz với turbo
+                      boost, bộ nhớ đệm 8MB L2 / 16MB L3, 4nm, TDP 35-54W)</p>
+                    
+                  </li>
+                  <li>
+                    <p>   <strong>RAM:</strong> 16GB DDR5 4800MHz (có 2 khe cắm có thể
+                      nâng cấp được tối đa tới 32GB,theo nhà sản xuất)</p>
+                 
+                  </li>
+                  <li>
+                    <p> <strong>Ổ cứng:</strong> 512GB SSD M.2 2280 PCIe 4x4 NVMe (2
+                      khe cắm ổ M.2 SSD, có thể nâng cấp được)</p>
+                   
+                  </li>
+                  <li>
+                    <p><strong>Màn hình:</strong> 15.6'' FHD IPS, màn nhám không
+                      cảm ứng, tỷ lệ khung hình 16:10, tỷ lệ screen-to-body 92.8%,
+                      độ sáng 350nits, tần số quét 144Hz, 100% sRGB, chỉ số DeltaE
+                      &#60;2, Dolby Vision, AMD Free-Sync Premium, NVidia G-Sync,
+                      DC dimmer, màn giảm ánh sáng xanh bảo vệ mắt công nghệ TÜV
+                      Rheinland.</p>
+                    
+                  </li>
+                  <li>
+                    <p><strong>Đồ họa:</strong> AMD Radeon™ 780M và NVIDIA®GeForce®
+                      RTX™ 4060 8GB GDDR6</p>
+                    
+                  </li>
+                  <li>
+                   <p> <strong>Camera: </strong> FHD 1080p với công tắc E-camera
+                    Shutter và 2 mic thu tầm xa</p>
+                   
+                  </li>
+                  <li>
+                    <p> <strong>Pin:</strong>4cell, 80whr hỗ trợ cộng nghệ Super
+                      Rapid Charge</p>
+                   
+                  </li>
+                  <li>
+                    <p><strong>Bàn phím:</strong> Fullsize với numberpad, có đèn
+                      LED trắng</p>
+                    
+                  </li>
+                  <li>
+                    <p>   <strong>Kết nối vật lý:</strong> Công tắc bật/tắt màn trập
+                      E-camera shutter; khe đọc ghi thẻ SD card, 2 cổng USB-A 3.2
+                      Gen 2 (trong đó có 1 cổng Always on), jack tai nghe, cổng
+                      mạng LAN, 1 USB-C 3.2 Gen 2 (truyền tải dữ liệu, thay thế
+                      DisplayPort™ 1.4 và sạc Power Delivery 135W), HDMI 2.1, cổng
+                      sạc chân vuông, 1 cổng USB-C 3.2 Gen 2 (truyền tải dữ liệu,
+                      thay thế DisplayPort™ 1.4) (Xem trong hình bên dưới)</p>
+                 
+                  </li>
+                  <li>
+                    <p><strong>Kết nối không dây:</strong> Wi-Fi 6 + Bluetooth 5.2</p>
+                    
+                  </li>
+                  <li><p><strong>Hệ điều hành:</strong> Windows 11</li></p> </li>
+                     
+                  <li><p> <strong>Năm sản xuất:</strong> 2023</li></p>
+                    
+                  <li><p> <strong>Tình trạng:</strong> New 100%</li></p>
+                    
+                  <li>
+                    <p><strong>Bảo hành: 12 tháng tại hệ thống Laptopgame</strong></p>
+                    
+                  </li>
+                </ul>
+                <img src="/img/product_img/img_05.png" alt="" />
+                <h2 class="bough">Cổng kết nối</h2>
+                   <p>   <strong>A/ CẠNH BÊN PHẢI: </strong>công tắc E-camera
+                    shutter, khe đọc ghi thẻ SD card</p>
+                   <p> <strong>B/ CẠNH BẢN LỀ:</strong> USB-A 3.2 Gen 2 (hỗ trợ
+                    truyền tải dữ liệu, sạc thiết bị ngoại vi ngay cả khi máy đã
+                    tắt), USB-A 3.2 Gen 2 (truyền tải dữ liệu), RJ45 (mạng LAN),
+                    HDMI 2.1, cổng sạc chân vuông (DC-in)</p>
+                   
+                  <p> <strong>C/ CẠNH BÊN TRÁI:</strong> USB-C 3.2 gen 2 (chỉ
+                    truyền tải dữ liệu, Display Port 1.4 iGPU), USB-C 3.2 gen 2
+                    (truyền tải dữ liệu, Display Port 1.4 dGPU, sạc 2 chiều)</p>
+                   
+                <img src="/img/product_img/img_06.png" alt="" />
+                <div class="btn-summary">Thu Gọn</div>
+              </div>
+            </div>
+
+            <div class="col-md-3-12">
+              <div class="product_spec">
+                <h3 class="product_spec-heading">Thông số kỹ thuật</h3>
+                <div class="special-content-wrap">
+                  <div class="special-content">
+                    <table border="0" cellpadding="5px" width="100%" class="table table-striped">
+                      <tbody>
+                      <tr>
+                        <td width="40%">CPU</td>
+                        <td>AMD Ryzen 7840H "Zen 4" (8&nbsp;nhân 16 luồng, tần số cơ bản 3.8GHz, có thể đạt tới 5.1GHz với turbo boost, bộ nhớ đệm 8MB L2 / 16MB L3, 4nm, TDP&nbsp;35-54W)</td>
+                      </tr>
+                      <tr>
+                        <td width="40%">Ram</td>
+                        <td>16 GB DDR5-4800MHz(8x2)</td>
+                      </tr>
+                      <tr>
+                        <td width="40%">Ổ cứng</td>
+                        <td>512GB PCIe® NVMe™ M.2 SSD gen 4</td>
+                      </tr>
+                      <tr>
+                        <td width="40%">Màn hình</td>
+                        <td>15.6" FHD, 350 nits, 144Hz, sRGB: 100%, Acer ComfyView™, IPS</td>
+                      </tr>
+                      <tr>
+                        <td width="40%">Card đồ họa</td>
+                        <td>AMD Radeon™ 780M và NVIDIA®GeForce® RTX™ 4060 8GB GDDR6</td>
+                      </tr>
+                      <tr>
+                        <td width="40%">Pin</td>
+                        <td>71wh</td>
+                      </tr>
+                      <tr>
+                        <td width="40%">Âm thanh</td>
+                        <td>Nahimic Audio</td>
+                      </tr>
+                      <tr>
+                        <td width="40%">Khối lượng</td>
+                        <td>2.3kg</td>
+                      </tr>
+                      <tr>
+                        <td width="40%">Kết nối không dây</td>
+                        <td>Wi-Fi® 6, Bluetooth 5.2</td>
+                      </tr>
+                      <tr>
+                        <td width="40%">Tình trạng sản phẩm</td>
+                        <td>New 100%</td>
+                      </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                <div class="load__more-detail">Xem cấu hình chi tiết</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="quick_support">
+      <div class="social-h1">
+        <img src="/img/call.webp" alt="" class="img_phone" />
+        <span class="img_phone">
+          Hotline
+          <strong class="img_phone">0123456789</strong>
+        </span>
+      </div>
+      <div class="social-fb">
+        <img src="/img/fb.webp" alt="" />
+        <span> Fanpage </span>
+      </div>
+      <div class="img_mess social-mess">
+        <img src="/img/messager.webp" alt="" class="img_mess" />
+        <span class="img_mess"> Chat FB </span>
+      </div>
+      <div class="social-zalo img_zalo">
+        <img src="/img/zalo.webp" alt="" class="img_zalo" />
+        <span class="img_zalo">
+          Zalo
+          <strong class="img_zalo">0123456789</strong>
+        </span>
+      </div>
+      <div class="social-ytb">
+        <img src="/img/ytb.webp" alt="" class="img_phone" />
+        <span> Youtube </span>
+      </div>
+    </div>
+    <!-- Footeronous -->
+    <footer>
+      <div class="footer__wrapper">
+        <div class="container">
+          <div class="footer-list">
+            <div class="footer__item">
+              <h3 class="footer__item-heading">Công Ty TNHH LaptopAgent</h3>
+              <p class="footer__item-with-icon">
+                <i class="fas fa-map-marker-alt footer-icon"></i> Khu đô thị
+                Vĩnh Điềm Trung, phường Lọc Thọ, tỉnh Khánh Hòa, thành phố Nha
+                Trang
+              </p>
+              <p class="footer__item-with-icon">
+                <i class="fas fa-phone-square-alt footer-icon"></i> Hotline:
+                0123 456 789
+              </p>
+              <p class="footer__item-with-icon">
+                <i class="fas fa-envelope-square footer-icon"></i> Email:
+                LaptopAgent@supportmail.com.vn
+              </p>
+              <p class="footer__item-with-icon">
+                <i class="fas fa-globe footer-icon"></i> Website:
+                laptopagent.com.vn
+              </p>
+            </div>
+            <div class="footer__item">
+              <h3 class="footer__item-heading">Truy cập nhanh</h3>
+              <a href="">
+                <p class="footer__item-with-icon">>&nbsp; Trang chủ</p>
+              </a>
+              <a href="">
+                <p class="footer__item-with-icon">>&nbsp; Giới thiệu</p>
+              </a>
+              <a href="">
+                <p class="footer__item-with-icon">>&nbsp; Tư vấn laptop</p>
+              </a>
+              <a href="">
+                <p class="footer__item-with-icon">>&nbsp; Sự kiện</p>
+              </a>
+              <a href="">
+                <p class="footer__item-with-icon">>&nbsp; Liên hệ</p>
+              </a>
+            </div>
+            <div class="footer__item">
+              <h3 class="footer__item-heading">Danh mục sản phẩm</h3>
+              <a href="">
+                <p class="footer__item-with-icon">>&nbsp; Laptop Acer</p>
+              </a>
+              <a href="">
+                <p class="footer__item-with-icon">>&nbsp; Laptop Legion</p>
+              </a>
+              <a href="">
+                <p class="footer__item-with-icon">>&nbsp; Laptop HP</p>
+              </a>
+              <a href="">
+                <p class="footer__item-with-icon">>&nbsp; Laptop Samsung</p>
+              </a>
+              <a href="">
+                <p class="footer__item-with-icon">> &nbsp;Laptop Surface</p>
+              </a>
+              <a href="">
+                <p class="footer__item-with-icon">>&nbsp; Laptop siêu rẻ</p>
+              </a>
+            </div>
+            <div class="footer__item">
+              <h3 class="footer__item-heading">Follow us</h3>
+              <a href="">
+                <p class="footer__item-with-icon">
+                  <i class="fab fa-facebook footer-icon"></i> Facebook
+                </p>
+              </a>
+              <a href="">
+                <p class="footer__item-with-icon">
+                  <i class="fab fa-youtube footer-icon"></i> Youtube
+                </p>
+              </a>
+              <a href="">
+                <p class="footer__item-with-icon">
+                  <i class="fab fa-twitter footer-icon"></i> Twitter
+                </p>
+              </a>
+              <a href="">
+                <p class="footer__item-with-icon">
+                  <i class="fab fa-instagram footer-icon"></i> Instagram
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-authentication">Bản quyền thuộc về LaptopAgent</div>
+      </div>
+    </footer>
+  </div>
+</html>
