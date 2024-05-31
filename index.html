@@ -1,0 +1,2651 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>LaptopAgent mua bán trả góp, thanh toán liền tay</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./assets/base.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./assets/style.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__wrap">
+          <div class="header__with-search">
+            <a href="index.html" class="logo">
+              <img src="img/Logo.png" alt="Logo" class="header__logo" />
+            </a>
+            <a href="branch.html">
+              <p class="header__with-search-store">
+                Hệ Thống cửa hàng
+                <br />
+                <span class="store__location"> (chi nhánh Nha Trang) </span>
+              </p>
+            </a>
+            <div class="header__with-search-form">
+              <input
+                type="text"
+                class="header__with-search-input"
+                placeholder="Từ khóa..."
+              />
+              <i class="input-icon fas fa-search" style="cursor: pointer"></i>
+            </div>
+            <ul class="header__with-search-list">
+              <li class="header__with-search-item">
+                <a href="news.html">
+                  <p class="header__with-search-blog">24h Công nghệ</p>
+                </a>
+              </li>
+              <li class="header__with-search-item">
+                <a href="news.html">
+                  <p class="header__with-search-news">News</p>
+                </a>
+              </li>
+              <li class="header__with-search-item">
+                <i class="header__with-search-icon fas fa-phone"></i>
+                <span class="header__with-search-phone">012345678</span>
+              </li>
+              <li class="header__with-search-item">
+                <i class="header__with-search-icon far fa-user-circle"></i>
+                <div class="header__with-search-user">
+                  <a href="login.html">
+                    <p class="header__with-search-login">Đăng nhập</p>
+                  </a>
+                  <a href="register.html">
+                    <p class="header__with-search-register">Đăng ký</p>
+                  </a>
+                </div>
+              </li>
+              <li class="header__with-search-item">
+                <a href="cart.html">
+                  <div class="header__with-search-cart">
+                    <i class="header__with-search-icon fas fa-shopping-bag"></i>
+                    <p class="header__with-search-cart-name">Giỏ <br />hàng</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="header__navbar">
+            <ul class="header__navbar-list">
+              <li class="header__navbar-item">
+                <a href=""> Trang Chủ </a>
+              </li>
+              <li class="header__navbar-item">
+                <a href="introduction.html"> Giới thiệu </a>
+              </li>
+              <li
+                class="header__navbar-item navbar__laptop-list header__navbar-item--has-arrow"
+              >
+                <a href=""> Laptop </a>
+                <ul class="header__navbar-laptop-list">
+                  <li class="header__navbar-laptop-item">
+                    <a href="">Dell</a>
+                  </li>
+                  <li class="header__navbar-laptop-item">
+                    <a href="">Hp</a>
+                  </li>
+                  <li class="header__navbar-laptop-item">
+                    <a href="">Asus</a>
+                  </li>
+                  <li class="header__navbar-laptop-item">
+                    <a href="">Acer</a>
+                  </li>
+                  <li class="header__navbar-laptop-item">
+                    <a href="">Lenovo</a>
+                  </li>
+                  <li class="header__navbar-laptop-item">
+                    <a href="">Msi</a>
+                  </li>
+                  <li class="header__navbar-laptop-item">
+                    <a href="">Samsung</a>
+                  </li>
+                </ul>
+              </li>
+              <li
+                class="header__navbar-item navbar__laptop-list--luxury header__navbar-item--has-arrow"
+              >
+                <a href=""> Mỏng nhẹ cao cấp </a>
+                <ul class="header__navbar-laptop-list">
+                  <li class="header__navbar-laptop-item">
+                    <a href="">Dell</a>
+                  </li>
+                  <li class="header__navbar-laptop-item">
+                    <a href="">Asus</a>
+                  </li>
+                  <li class="header__navbar-laptop-item">
+                    <a href="">Acer</a>
+                  </li>
+                  <li class="header__navbar-laptop-item">
+                    <a href="">Hp</a>
+                  </li>
+                  <li class="header__navbar-laptop-item">
+                    <a href="">Lenovo</a>
+                  </li>
+                  <li class="header__navbar-laptop-item">
+                    <a href="">Thinkbook</a>
+                  </li>
+                  <li class="header__navbar-laptop-item">
+                    <a href="">Dell Xps</a>
+                  </li>
+                  <li class="header__navbar-laptop-item">
+                    <a href="">Samsung</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="header__navbar-item">
+                <a href=""> Gaming & đồ họa </a>
+              </li>
+              <li class="header__navbar-item">
+                <a href=""> New Outlet </a>
+              </li>
+              <li class="header__navbar-item">
+                <a href=""> Surface </a>
+              </li>
+              <li class="header__navbar-item">
+                <a href=""> Máy cũ giá rẻ </a>
+              </li>
+              <li
+                class="header__navbar-item navbar__laptop-list--accessory header__navbar-item--has-arrow"
+              >
+                <a href=""> Phụ kiện </a>
+                <ul class="header__navbar-laptop-list">
+                  <li class="header__navbar-laptop-item">
+                    <a href="">Bàn phím</a>
+                  </li>
+                  <li class="header__navbar-laptop-item">
+                    <a href="">Chuột</a>
+                  </li>
+                  <li class="header__navbar-laptop-item">
+                    <a href="">Túi bao da</a>
+                  </li>
+                  <li class="header__navbar-laptop-item">
+                    <a href="">Bút</a>
+                  </li>
+                  <li class="header__navbar-laptop-item">
+                    <a href="">Kính cường lực</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="header__navbar-item">
+                <a href=""> Trả góp 0% </a>
+              </li>
+              <li class="header__navbar-item">
+                <a href=""> Khuyến mãi </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <!-- Body content -->
+      <div class="body-content">
+        <div class="body__wrapper">
+          <!-- banner image -->
+          <img src="img/big_bn_slide.webp" alt="" />
+          <!-- container -->
+          <div class="container">
+            <div class="brand-quality">
+              <ul class="brand-quality__list">
+                <li class="brand-quality__list-item">
+                  <img
+                    src="img/brand__quality_01.webp"
+                    alt=""
+                    class="brand-quality-img"
+                  />
+                  <p class="brand-quality-text">Sản phẩm an toàn</p>
+                </li>
+                <li class="brand-quality__list-item">
+                  <img
+                    src="img/brand__quality_02.webp"
+                    alt=""
+                    class="brand-quality-img"
+                  />
+                  <p class="brand-quality-text">Chất lượng cam kết</p>
+                </li>
+                <li class="brand-quality__list-item">
+                  <img
+                    src="img/brand__quality_03.webp"
+                    alt=""
+                    class="brand-quality-img"
+                  />
+                  <p class="brand-quality-text">Dịch vụ vượt trội</p>
+                </li>
+                <li class="brand-quality__list-item">
+                  <img
+                    src="img/brand__quality_04.webp"
+                    alt=""
+                    class="brand-quality-img"
+                  />
+                  <p class="brand-quality-text">Giao hàng miễn phí</p>
+                </li>
+              </ul>
+            </div>
+            <!-- category -->
+            <div class="category">
+              <div class="category-wrapper">
+                <h3 class="category__heading">DANH MỤC NỔI BẬT</h3>
+                <ul class="category__list">
+                  <a href="">
+                    <li class="category__list-item">
+                      <img
+                        src="img/category__01.webp"
+                        alt=""
+                        class="category__list-item-img"
+                      />
+                      <p class="category__list-item-des">New</p>
+                    </li>
+                  </a>
+                  <a href="">
+                    <li class="category__list-item">
+                      <img
+                        src="img/category__02.webp"
+                        alt=""
+                        class="category__list-item-img"
+                      />
+                      <p class="category__list-item-des">Gaming & Đồ Họa</p>
+                    </li>
+                  </a>
+                  <a href="">
+                    <li class="category__list-item">
+                      <img
+                        src="img/category__03.webp"
+                        alt=""
+                        class="category__list-item-img"
+                      />
+                      <p class="category__list-item-des">Mỏng nhẹ</p>
+                    </li>
+                  </a>
+                  <a href="">
+                    <li class="category__list-item">
+                      <img
+                        src="img/category__04.webp"
+                        alt=""
+                        class="category__list-item-img"
+                      />
+                      <p class="category__list-item-des">New Outlet</p>
+                    </li>
+                  </a>
+                  <a href="">
+                    <li class="category__list-item">
+                      <img
+                        src="img/category__05.webp"
+                        alt=""
+                        class="category__list-item-img"
+                      />
+                      <p class="category__list-item-des">Máy cũ</p>
+                    </li>
+                  </a>
+                  <a href="">
+                    <li class="category__list-item">
+                      <img
+                        src="img/category__06.webp"
+                        alt=""
+                        class="category__list-item-img"
+                      />
+                      <p class="category__list-item-des">Legion</p>
+                    </li>
+                  </a>
+                  <a href="">
+                    <li class="category__list-item">
+                      <img
+                        src="img/category__07webp.webp"
+                        alt=""
+                        class="category__list-item-img"
+                      />
+                      <p class="category__list-item-des">Acer nitro</p>
+                    </li>
+                  </a>
+                  <a href="">
+                    <li class="category__list-item">
+                      <img
+                        src="img/category__08.webp"
+                        alt=""
+                        class="category__list-item-img"
+                      />
+                      <p class="category__list-item-des">Dell xps</p>
+                    </li>
+                  </a>
+                  <a href="">
+                    <li class="category__list-item">
+                      <img
+                        src="img/category__09.webp"
+                        alt=""
+                        class="category__list-item-img"
+                      />
+                      <p class="category__list-item-des">Phụ kiện</p>
+                    </li>
+                  </a>
+                  <a href="">
+                    <li class="category__list-item">
+                      <img
+                        src="img/category__10.webp"
+                        alt=""
+                        class="category__list-item-img"
+                      />
+                      <p class="category__list-item-des">Dell</p>
+                    </li>
+                  </a>
+                  <a href="">
+                    <li class="category__list-item">
+                      <img
+                        src="img/category__11.webp"
+                        alt=""
+                        class="category__list-item-img"
+                      />
+                      <p class="category__list-item-des">Asus</p>
+                    </li>
+                  </a>
+                  <a href="">
+                    <li class="category__list-item">
+                      <img
+                        src="img/category__12.webp"
+                        alt=""
+                        class="category__list-item-img"
+                      />
+                      <p class="category__list-item-des">Acer</p>
+                    </li>
+                  </a>
+                  <a href="">
+                    <li class="category__list-item">
+                      <img
+                        src="img/category__13.webp"
+                        alt=""
+                        class="category__list-item-img"
+                      />
+                      <p class="category__list-item-des">Hp</p>
+                    </li>
+                  </a>
+                  <a href="">
+                    <li class="category__list-item">
+                      <img
+                        src="img/category__14.webp"
+                        alt=""
+                        class="category__list-item-img"
+                      />
+                      <p class="category__list-item-des">Lenovo</p>
+                    </li>
+                  </a>
+                  <a href="">
+                    <li class="category__list-item">
+                      <img
+                        src="img/category__15.webp"
+                        alt=""
+                        class="category__list-item-img"
+                      />
+                      <p class="category__list-item-des">Msi</p>
+                    </li>
+                  </a>
+                  <a href="">
+                    <li class="category__list-item">
+                      <img
+                        src="img/category__16.webp"
+                        alt=""
+                        class="category__list-item-img"
+                      />
+                      <p class="category__list-item-des">Surface</p>
+                    </li>
+                  </a>
+                  <a href="">
+                    <li class="category__list-item">
+                      <img
+                        src="img/category__17.webp"
+                        alt=""
+                        class="category__list-item-img"
+                      />
+                      <p class="category__list-item-des">Samsung</p>
+                    </li>
+                  </a>
+                </ul>
+              </div>
+            </div>
+            <!-- product -->
+            <div class="product">
+              <!-- product hot sales -->
+              <div class="product__hotsale grid">
+                <div class="product__hotsale-head">
+                  <img
+                    src="img/flash.webp"
+                    alt=""
+                    class="product__hotsale-head-img"
+                  />
+                  <h3 class="product__hotsale-head-heading">
+                    FLASH SALE HÀNG TUẦN
+                  </h3>
+                  <p class="product__hotsale-head-text">
+                    Giảm ngay 20% tổng giá trị đơn hàng. Số lượng có hạn
+                  </p>
+                </div>
+                <div class="product__hotsale-body">
+                  <div class="grid__row">
+                    <div class="grid__col-2-5">
+                      <div class="product__body-item">
+                        <div class="product__body-img-wrapper">
+                          <a href="product_detail.html">
+                            <img
+                              src="./img/flashsale-product_01.webp"
+                              alt=""
+                              class="product__body-img"
+                            />
+                          </a>
+                        </div>
+                        <!-- Sold-module -->
+                        <div class="clearfix">
+                          <div class="sold-module modal-open">
+                            <img
+                              src="img/hot-sale.webp"
+                              alt=""
+                              class="sold-module-img"
+                            />
+                            <div class="sold-module-text">Sắp cháy hàng</div>
+                            <div class="sold-module-remain modal-open"></div>
+                          </div>
+                        </div>
+                        <a
+                          href="product_detail.html"
+                          class="product__body-title"
+                        >
+                          [New 100%] HP Envy X360 2 in 1 14-es0013dx (Core
+                          i5-1335U, 8GB, 512GB, Iris Xe Graphics, 14" FHD Touch)
+                        </a>
+                        <div class="product__body-price">
+                          <p class="product__body-new-price">24.690.000đ</p>
+                          <p class="product__body-old-price">32.890.000đ</p>
+                        </div>
+                        <div class="product__body-summary">
+                          <p class="product__body-detail">
+                            <strong>
+                              CPU:Ryzen 7 7840H
+                              <br />
+                              Ram: 16GB
+                              <br />
+                              Ổ cứng: 512GB
+                              <br />
+                              Card: RTX 4060 8GB
+                              <br />
+                              M.Hình:15.6'' FHD 144Hz
+                              <br />
+                              Khối lượng:2,3kg
+                            </strong>
+                          </p>
+                        </div>
+                        <p class="product__body-vourcher">Giảm 25%</p>
+                      </div>
+                    </div>
+                    <div class="grid__col-2-5">
+                      <div class="product__body-item">
+                        <div class="product__body-img-wrapper">
+                          <a href="product_detail.html">
+                            <img
+                              src="./img/flashsale-product_02.webp"
+                              alt=""
+                              class="product__body-img"
+                            />
+                          </a>
+                        </div>
+                        <!-- Sold-module -->
+                        <div class="clearfix">
+                          <div class="sold-module modal-open">
+                            <img
+                              src="img/hot-sale.webp"
+                              alt=""
+                              class="sold-module-img"
+                            />
+                            <div class="sold-module-text">Đã bán: 12</div>
+                            <div class="sold-module-remain modal-open"></div>
+                          </div>
+                        </div>
+                        <a
+                          href="product_detail.html"
+                          class="product__body-title"
+                        >
+                          [New 100%] Asus ROG Flow X13 GV302XA-X13.R9512 xoay
+                          gập 2-1 cảm ứng (Ryzen 9 7940HS, Ram 16GB, SSD 512GB,
+                          AMD Radeon™ 780M, 13.4" 120Hz FHD+)
+                        </a>
+                        <div class="product__body-price">
+                          <p class="product__body-new-price">21.900.000đ</p>
+                          <p class="product__body-old-price">26.890.000đ</p>
+                        </div>
+                        <div class="product__body-summary">
+                          <p class="product__body-detail">
+                            <strong>
+                              CPU:Ryzen 9 7940HS
+                              <br />
+                              Ram: 16GB
+                              <br />
+                              Ổ cứng: 512GB
+                              <br />
+                              Card: AMD Radeon™ 780M
+                              <br />
+                              M.Hình: 13.4'' FHD+,500nits,120Hz
+                              <br />
+                              Khối lượng:1,3kg
+                            </strong>
+                          </p>
+                        </div>
+                        <p class="product__body-vourcher">Giảm 19%</p>
+                      </div>
+                    </div>
+                    <div class="grid__col-2-5">
+                      <div class="product__body-item">
+                        <div class="product__body-img-wrapper">
+                          <a href="product_detail.html">
+                            <img
+                              src="./img/flashsale-product_03.webp"
+                              alt=""
+                              class="product__body-img"
+                            />
+                          </a>
+                        </div>
+                        <!-- Sold-module -->
+                        <div class="clearfix">
+                          <div class="sold-module modal-open">
+                            <img
+                              src="img/hot-sale.webp"
+                              alt=""
+                              class="sold-module-img"
+                            />
+                            <div class="sold-module-text">Sắp cháy hàng</div>
+                            <div
+                              class="sold-module-remain modal-open"
+                              style="width: 88%"
+                            ></div>
+                          </div>
+                        </div>
+                        <a
+                          href="product_detail.html"
+                          class="product__body-title"
+                        >
+                          [New 100%] Asus Zenbook 14 OLED Q415MA-U5512 (Intel
+                          Core Ultra 5 125H, 8GB, 512GB, 14" FHD+ touch, Intel
+                          Graphics, JASPER GRAY)
+                        </a>
+                        <div class="product__body-price">
+                          <p class="product__body-new-price">15.990.000đ</p>
+                          <p class="product__body-old-price">27.990.000đ</p>
+                        </div>
+                        <div class="product__body-summary">
+                          <p class="product__body-detail">
+                            <strong>
+                              CPU:Core Ultra 5, 125H
+                              <br />
+                              Ram: 8GB
+                              <br />
+                              Ổ cứng: 512GB
+                              <br />
+                              Card: Intel Iris Xe Graphics
+                              <br />
+                              M.Hình:14'' FHD+, Touch
+
+                              <br />
+                              Khối lượng:1,28kg
+                            </strong>
+                          </p>
+                        </div>
+                        <p class="product__body-vourcher">Giảm 43%</p>
+                      </div>
+                    </div>
+                    <div class="grid__col-2-5">
+                      <div class="product__body-item">
+                        <div class="product__body-img-wrapper">
+                          <a href="product_detail.html">
+                            <img
+                              src="./img/flashsale-product_04.webp"
+                              alt=""
+                              class="product__body-img"
+                            />
+                          </a>
+                        </div>
+                        <!-- Sold-module -->
+                        <div class="clearfix">
+                          <div class="sold-module modal-open">
+                            <img
+                              src="img/hot-sale.webp"
+                              alt=""
+                              class="sold-module-img"
+                            />
+                            <div class="sold-module-text">Đã bán 3</div>
+                            <div
+                              class="sold-module-remain modal-open"
+                              style="width: 30%"
+                            ></div>
+                          </div>
+                        </div>
+                        <a
+                          href="product_detail.html"
+                          class="product__body-title"
+                        >
+                          [NEW 100%] Lenovo Thinkbook 14P Gen 3 ARH (Ryzen 7
+                          6800H, AMD Radeon 680M, Ram 16GB, SSD 512GB, Màn 14'
+                          2.2K, 100% sRGB)
+                        </a>
+                        <div class="product__body-price">
+                          <p class="product__body-new-price">15.690.000đ</p>
+                          <p class="product__body-old-price">22.490.000đ</p>
+                        </div>
+                        <div class="product__body-summary">
+                          <p class="product__body-detail">
+                            <strong>
+                              CPU:Ryzen 7 6800H
+                              <br />
+                              Ram: 16GB
+                              <br />
+                              Ổ cứng: 512GB
+                              <br />
+                              Card: ADM Radeon™ 680M
+                              <br />
+                              M.Hình:14’’ 2.2K&nbsp;100%sRGB 300nits
+                              <br />
+                              Khối lượng:1,4kg
+                            </strong>
+                          </p>
+                        </div>
+                        <p class="product__body-vourcher">Giảm 30%</p>
+                      </div>
+                    </div>
+                    <div class="grid__col-2-5">
+                      <div class="product__body-item">
+                        <div class="product__body-img-wrapper">
+                          <a href="product_detail.html">
+                            <img
+                              src="./img/flashsale-product_05.webp"
+                              alt=""
+                              class="product__body-img"
+                            />
+                          </a>
+                        </div>
+                        <!-- Sold-module -->
+                        <div class="clearfix">
+                          <div class="sold-module modal-open">
+                            <img
+                              src="img/hot-sale.webp"
+                              alt=""
+                              class="sold-module-img"
+                            />
+                            <div class="sold-module-text">Đã bán 8</div>
+                            <div
+                              class="sold-module-remain modal-open"
+                              style="width: 60%"
+                            ></div>
+                          </div>
+                        </div>
+                        <a
+                          href="product_detail.html"
+                          class="product__body-title"
+                        >
+                          [New 100% kèm bút spen] Samsung Galaxy Book 2 PRO 360
+                          2in1 SILVER(Core i7-1260P, Ram 16GB, SSD 512GB, 13,3'
+                          FHD AMOLED Touch Screen)
+                        </a>
+                        <div class="product__body-price">
+                          <p class="product__body-new-price">21.990.000đ</p>
+                          <p class="product__body-old-price">29.890.000đ</p>
+                        </div>
+                        <div class="product__body-summary">
+                          <p class="product__body-detail">
+                            <strong>
+                              CPU:Core I7-1260p
+                              <br />
+                              Ram: 16GB
+                              <br />
+                              Ổ cứng: 512GB
+                              <br />
+                              kèm bút S Pen included
+                              <br />
+                              M.Hình:13.3'' FHD&nbsp;AMOLED&nbsp;cảm ứng
+
+                              <br />
+
+                              Khối lượng: 1,04kg
+                            </strong>
+                          </p>
+                        </div>
+                        <p class="product__body-vourcher">Giảm 26%</p>
+                      </div>
+                    </div>
+                    <div class="grid__col-2-5">
+                      <div class="product__body-item">
+                        <div class="product__body-img-wrapper">
+                          <a href="product_detail.html">
+                            <img
+                              src="./img/flashsale-product_06.webp"
+                              alt=""
+                              class="product__body-img"
+                            />
+                          </a>
+                        </div>
+                        <!-- Sold-module -->
+                        <div class="clearfix">
+                          <div class="sold-module modal-open">
+                            <img
+                              src="img/hot-sale.webp"
+                              alt=""
+                              class="sold-module-img"
+                            />
+                            <div class="sold-module-text">Sắp cháy hàng</div>
+                            <div class="sold-module-remain modal-open"></div>
+                          </div>
+                        </div>
+                        <a
+                          href="product_detail.html"
+                          class="product__body-title"
+                        >
+                          [New 100%] Lenovo Legion 5 (Y7000P)16IRX9( Core
+                          i7-14650HX, Ram 16G, SSD 1T, RTX 4060, 16″ 2.5k 165Hz)
+                        </a>
+                        <div class="product__body-price">
+                          <p class="product__body-new-price">30.490.000đ</p>
+                          <p class="product__body-old-price">39.890.000đ</p>
+                        </div>
+                        <div class="product__body-summary">
+                          <p class="product__body-detail">
+                            <strong>
+                              CPU:Core I7-14650HX
+                              <br />
+                              Ram: 16GB
+                              <br />
+                              Ổ cứng: 1TB
+                              <br />
+                              Card: RTX 4060 8GB
+                              <br />
+                              M.Hình:&nbsp;16″ 2.5K&nbsp;100%sRGB 165Hz
+
+                              <br />
+
+                              Khối lượng: 2.4kg
+                            </strong>
+                          </p>
+                        </div>
+                        <p class="product__body-vourcher">Giảm 24%</p>
+                      </div>
+                    </div>
+                    <div class="grid__col-2-5">
+                      <div class="product__body-item">
+                        <div class="product__body-img-wrapper">
+                          <a href="product_detail.html">
+                            <img
+                              src="./img/flashsale-product_07.webp"
+                              alt=""
+                              class="product__body-img"
+                            />
+                          </a>
+                        </div>
+                        <!-- Sold-module -->
+                        <div class="clearfix">
+                          <div class="sold-module modal-open">
+                            <img
+                              src="img/hot-sale.webp"
+                              alt=""
+                              class="sold-module-img"
+                            />
+                            <div class="sold-module-text">Sắp cháy hàng</div>
+                            <div class="sold-module-remain modal-open"></div>
+                          </div>
+                        </div>
+                        <a
+                          href="product_detail.html"
+                          class="product__body-title"
+                        >
+                          [New Outlet] Dell Inspiron 16 Plus 7630 - Intel Core
+                          i7-13700H | RAM 32GB | SSD 1TB | 16 inch' 2.5K
+                        </a>
+                        <div class="product__body-price">
+                          <p class="product__body-new-price">20.990.000đ</p>
+                          <p class="product__body-old-price">25.000.000đ</p>
+                        </div>
+                        <div class="product__body-summary">
+                          <p class="product__body-detail">
+                            <strong>
+                              CPU: Core i7-13700H
+                              <br />
+
+                              Ram:&nbsp;32 GB DDR5
+                              <br />
+
+                              Ổ cứng: 1TB&nbsp;NVME
+                              <br />
+
+                              Card: Intel&nbsp;Iris Xe Graphics
+                              <br />
+
+                              M.Hình: 16'' 2.5K&nbsp;300 nits
+                              <br />
+
+                              Khối&nbsp;lượng: 2.05kg
+                            </strong>
+                          </p>
+                        </div>
+                        <p class="product__body-vourcher">Giảm 16%</p>
+                      </div>
+                    </div>
+                    <div class="grid__col-2-5">
+                      <div class="product__body-item">
+                        <div class="product__body-img-wrapper">
+                          <a href="product_detail.html">
+                            <img
+                              src="./img/flashsale-product_08.webp"
+                              alt=""
+                              class="product__body-img"
+                            />
+                          </a>
+                        </div>
+                        <!-- Sold-module -->
+                        <div class="clearfix">
+                          <div class="sold-module modal-open">
+                            <img
+                              src="img/hot-sale.webp"
+                              alt=""
+                              class="sold-module-img"
+                            />
+                            <div class="sold-module-text">Đã bán 8</div>
+                            <div
+                              class="sold-module-remain modal-open"
+                              style="width: 40%"
+                            ></div>
+                          </div>
+                        </div>
+                        <a
+                          href="product_detail.html"
+                          class="product__body-title"
+                        >
+                          [New 100%] Dell XPS 13 9365 2 In 1 (Core i5-7Y54, 8GB,
+                          256GB, 13,3 QHD+ 3K 3200 X 1800 touch)
+                        </a>
+                        <div class="product__body-price">
+                          <p class="product__body-new-price">13.990.000đ</p>
+                          <p class="product__body-old-price">19.000.000đ</p>
+                        </div>
+                        <div class="product__body-summary">
+                          <p class="product__body-detail">
+                            <strong>
+                              CPU:Core™&nbsp;i5-7Y54
+                              <br />
+
+                              Ram: 8GB
+                              <br />
+
+                              Ổ cứng: 256GB
+                              <br />
+
+                              Card:Intel&nbsp;Iris&nbsp;Xe Graphics
+                              <br />
+
+                              M. Hình:13.3&nbsp;3K&nbsp;Touch
+                              <br />
+
+                              Khối lượng:1.24kg
+                            </strong>
+                          </p>
+                        </div>
+                        <p class="product__body-vourcher">Giảm 25%</p>
+                      </div>
+                    </div>
+                    <div class="grid__col-2-5">
+                      <div class="product__body-item">
+                        <div class="product__body-img-wrapper">
+                          <a href="product_detail.html">
+                            <img
+                              src="./img/flashsale-product_09.webp"
+                              alt=""
+                              class="product__body-img"
+                            />
+                          </a>
+                        </div>
+                        <!-- Sold-module -->
+                        <div class="clearfix">
+                          <div class="sold-module modal-open">
+                            <img
+                              src="img/hot-sale.webp"
+                              alt=""
+                              class="sold-module-img"
+                            />
+                            <div class="sold-module-text">Sắp cháy hàng</div>
+                            <div class="sold-module-remain modal-open"></div>
+                          </div>
+                        </div>
+                        <a
+                          href="product_detail.html"
+                          class="product__body-title"
+                        >
+                          [New 100%] Dell Inspiron 7435 2-in-1 (Ryzen 5 7530U
+                          RAM 8GB SSD 512GB 14 inch FHD+ Touch Windows 11)
+                        </a>
+                        <div class="product__body-price">
+                          <p class="product__body-new-price">13.200.000đ</p>
+                          <p class="product__body-old-price">20.900.000đ</p>
+                        </div>
+                        <div class="product__body-summary">
+                          <p class="product__body-detail">
+                            <strong>
+                              CPU:&nbsp; Ryzen 5 7530U
+                              <br />
+
+                              Ram: 8GB
+                              <br />
+                              Ổ cứng: 512GB
+                              <br />
+
+                              Card:AMD Radeon™ Graphics
+                              <br />
+
+                              M.Hình:14'' FHD Touch
+                              <br />
+
+                              Khối lượng: 1.58kg
+                            </strong>
+                          </p>
+                        </div>
+                        <p class="product__body-vourcher">Giảm 37%</p>
+                      </div>
+                    </div>
+                    <div class="grid__col-2-5">
+                      <div class="product__body-item">
+                        <div class="product__body-img-wrapper">
+                          <a href="product_detail.html">
+                            <img
+                              src="./img/flashsale-product_10.webp"
+                              alt=""
+                              class="product__body-img"
+                            />
+                          </a>
+                        </div>
+                        <!-- Sold-module -->
+                        <div class="clearfix">
+                          <div class="sold-module modal-open">
+                            <img
+                              src="img/hot-sale.webp"
+                              alt=""
+                              class="sold-module-img"
+                            />
+                            <div class="sold-module-text">Sắp cháy hàng</div>
+                            <div class="sold-module-remain modal-open"></div>
+                          </div>
+                        </div>
+                        <a
+                          href="product_detail.html"
+                          class="product__body-title"
+                        >
+                          [New 100%] HP Envy X360 2 in 1 14-es0013dx (Core
+                          i5-1335U, 8GB, 512GB, Iris Xe Graphics, 14" FHD Touch)
+                        </a>
+                        <div class="product__body-price">
+                          <p class="product__body-new-price">24.690.000đ</p>
+                          <p class="product__body-old-price">32.890.000đ</p>
+                        </div>
+                        <div class="product__body-summary">
+                          <p class="product__body-detail">
+                            <strong>
+                              CPU: Core i5-1335U
+                              <br />
+
+                              Ram: 8GB DDR4
+                              <br />
+
+                              Ổ cứng: 512G&nbsp;NVME
+                              <br />
+
+                              Card:Intel Iris Xe Graphics
+                              <br />
+                              M.Hình:15.6'' FHD 144Hz
+                              <br />
+
+                              Khối&nbsp;lượng: 1.52kg
+                            </strong>
+                          </p>
+                        </div>
+                        <p class="product__body-vourcher">Giảm 25%</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- product type: mong nhe -->
+              <div class="product-app grid">
+                <div class="product__infor">
+                  <h3 class="product__infor-name">LAPTOP MỎNG NHẸ CAO CẤP</h3>
+                  <ul class="product__infor-list">
+                    <li class="product__infor-item">
+                      <p class="product__infor-item-brand">Dell</p>
+                    </li>
+                    <li class="product__infor-item">
+                      <p class="product__infor-item-brand">Asus</p>
+                    </li>
+                    <li class="product__infor-item">
+                      <p class="product__infor-item-brand">Acer</p>
+                    </li>
+                    <li class="product__infor-item">
+                      <p class="product__infor-item-brand">Hp</p>
+                    </li>
+                    <li class="product__infor-item">
+                      <p class="product__infor-item-brand">Lenovo</p>
+                    </li>
+                    <li class="product__infor-item">
+                      <p class="product__infor-item-brand">Thinkbook</p>
+                    </li>
+                    <li class="product__infor-item">
+                      <p class="product__infor-item-brand">Dell Xps</p>
+                    </li>
+                    <li class="product__infor-item">
+                      <p class="product__infor-item-brand">Samsung</p>
+                    </li>
+                  </ul>
+                </div>
+                <div class="grid__row">
+                  <div class="grid__col-2-5">
+                    <div class="product__body-item">
+                      <div class="product__body-img-wrapper">
+                        <a href="product_detail.html">
+                          <img
+                            src="./img/flashsale-product_03.webp"
+                            alt=""
+                            class="product__body-img"
+                          />
+                        </a>
+                      </div>
+                      <a href="product_detail.html" class="product__body-title">
+                        [New 100%] Asus Zenbook 14 OLED Q415MA-U5512 (Intel Core
+                        Ultra 5 125H, 8GB, 512GB, 14" FHD+ touch, Intel
+                        Graphics, JASPER GRAY)
+                      </a>
+                      <div class="product__body-price">
+                        <p class="product__body-new-price">15.990.000đ</p>
+                        <p class="product__body-old-price">27.990.000đ</p>
+                      </div>
+                      <div class="product__body-summary">
+                        <p class="product__body-detail">
+                          <strong>
+                            CPU:&nbsp;Core Ultra 5, 125H
+                            <br />
+
+                            Ram: 8GB
+                            <br />
+                            Ổ cứng: 512GB
+                            <br />
+
+                            Card:Intel Iris Xe Graphics
+                            <br />
+
+                            M.Hình:14'' FHD+, Touch
+                            <br />
+
+                            Khối lượng: 1,28kg
+                          </strong>
+                        </p>
+                      </div>
+                      <p class="product__body-vourcher">Giảm 43%</p>
+                    </div>
+                  </div>
+                  <div class="grid__col-2-5">
+                    <div class="product__body-item">
+                      <div class="product__body-img-wrapper">
+                        <a href="product_detail.html">
+                          <img
+                            src="./img/flashsale-product_09.webp"
+                            alt=""
+                            class="product__body-img"
+                          />
+                        </a>
+                      </div>
+                      <a href="product_detail.html" class="product__body-title">
+                        [New 100%] Dell Inspiron 14 Plus 7420-R1605S (Intel Core
+                        i5-12500H, 16GB, SSD 512GB, 14 inch 2.2K)
+                      </a>
+                      <div class="product__body-price">
+                        <p class="product__body-new-price">16.500.000đ</p>
+                        <p class="product__body-old-price">19.800.000đ</p>
+                      </div>
+                      <div class="product__body-summary">
+                        <p class="product__body-detail">
+                          <strong
+                            >CPU: Core™ i5 - 12500H<br />
+                            Ram: 16GB<br />
+                            Ổ cứng: 512GB&nbsp;NVME<br />
+                            Card:&nbsp;Intel Graphics&nbsp;<br />
+                            M.Hình: 14'' 2.2K,&nbsp;100% sRGB,300nits<br />
+                            Khối&nbsp;lượng: 1.68kg</strong
+                          >
+                        </p>
+                      </div>
+                      <p class="product__body-vourcher">Giảm 25%</p>
+                    </div>
+                  </div>
+                  <div class="grid__col-2-5">
+                    <div class="product__body-item">
+                      <div class="product__body-img-wrapper">
+                        <a href="product_detail.html">
+                          <img
+                            src="./img/flashsale-product_08.webp"
+                            alt=""
+                            class="product__body-img"
+                          />
+                        </a>
+                      </div>
+                      <a href="product_detail.html" class="product__body-title">
+                        [NEW 100%] Lenovo Thinkbook 14P Gen 3 ARH (Ryzen 7
+                        6800H, AMD Radeon 680M, Ram 16GB, SSD 512GB, Màn 14'
+                        2.2K, 100% sRGB)
+                      </a>
+                      <div class="product__body-price">
+                        <p class="product__body-new-price">15.690.000đ</p>
+                        <p class="product__body-old-price">22.490.000đ</p>
+                      </div>
+                      <div class="product__body-summary">
+                        <p class="product__body-detail">
+                          <strong
+                            >CPU:&nbsp;Ryzen 7 6800H<br />
+                            Ram: 16GB<br />
+                            Ổ cứng: 512GB&nbsp;<br />
+                            Card:AMD Radeon 680M<br />
+                            M.Hình:14’’ 2.2K&nbsp;100%sRGB 300nits<br />
+                            Khối lượng: 1,4kg</strong
+                          >
+                        </p>
+                      </div>
+                      <p class="product__body-vourcher">Giảm 25%</p>
+                    </div>
+                  </div>
+                  <div class="grid__col-2-5">
+                    <div class="product__body-item">
+                      <div class="product__body-img-wrapper">
+                        <a href="product_detail.html">
+                          <img
+                            src="./img/flashsale-product_10.webp"
+                            alt=""
+                            class="product__body-img"
+                          />
+                        </a>
+                      </div>
+                      <a href="product_detail.html" class="product__body-title">
+                        [New 100%] Dell Inspiron 7435 2-in-1 (Ryzen 5 7530U RAM
+                        8GB SSD 512GB 14 inch FHD+ Touch Windows 11)
+                      </a>
+                      <div class="product__body-price">
+                        <p class="product__body-new-price">13.200.000đ</p>
+                        <p class="product__body-old-price">20.990.000đ</p>
+                      </div>
+                      <div class="product__body-summary">
+                        <p class="product__body-detail">
+                          <strong
+                            >CPU:&nbsp; Ryzen 5 7530U<br />
+                            Ram: 8GB<br />
+                            Ổ cứng: 512GB<br />
+                            Card:AMD Radeon™ Graphics<br />
+                            M.Hình:14'' FHD Touch<br />
+                            Khối lượng: 1.58kg</strong
+                          >
+                        </p>
+                      </div>
+                      <p class="product__body-vourcher">Giảm 37%</p>
+                    </div>
+                  </div>
+                  <div class="grid__col-2-5">
+                    <div class="product__body-item">
+                      <div class="product__body-img-wrapper">
+                        <a href="product_detail.html">
+                          <img
+                            src="./img/flashsale-product_05.webp"
+                            alt=""
+                            class="product__body-img"
+                          />
+                        </a>
+                      </div>
+                      <a href="product_detail.html" class="product__body-title">
+                        [New 100%] Dell Inspiron 15 3530 Silver(Core i5 1335U,
+                        RAM 16GB, SSD 512GB, 15.6 FHD IPS 120Hz)
+                      </a>
+                      <div class="product__body-price">
+                        <p class="product__body-new-price">14.500.000đ</p>
+                        <p class="product__body-old-price">18.890.000đ</p>
+                      </div>
+                      <div class="product__body-summary">
+                        <p class="product__body-detail">
+                          <strong
+                            >CPU:&nbsp;Core i5-1335U<br />
+                            Ram: 16GB<br />
+                            Ổ cứng: 512GB&nbsp;<br />
+                            Card:Intel Iris Xe Graphics<br />
+                            M.Hình:15.6"FHD 120Hz 250nits<br />
+                            Khối lượng: 1.66kg</strong
+                          >
+                        </p>
+                      </div>
+                      <p class="product__body-vourcher">Giảm 25%</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="more__prod-btn">
+                  <a
+                    href="product_detail.html"
+                    class="btn btn__load"
+                    title="Xem thêm"
+                    >Xem thêm</a
+                  >
+                </div>
+              </div>
+              <!-- product type: gaming & graphic -->
+              <div class="product-app grid">
+                <div class="product__infor">
+                  <h3 class="product__infor-name">LAPTOP GAMING & ĐỒ HỌA</h3>
+                  <ul class="product__infor-list">
+                    <li class="product__infor-item">
+                      <p class="product__infor-item-brand">Dell</p>
+                    </li>
+                    <li class="product__infor-item">
+                      <p class="product__infor-item-brand">Asus</p>
+                    </li>
+                    <li class="product__infor-item">
+                      <p class="product__infor-item-brand">Acer</p>
+                    </li>
+                    <li class="product__infor-item">
+                      <p class="product__infor-item-brand">Hp</p>
+                    </li>
+                    <li class="product__infor-item">
+                      <p class="product__infor-item-brand">Lenovo</p>
+                    </li>
+                    <li class="product__infor-item">
+                      <p class="product__infor-item-brand">Thinkbook</p>
+                    </li>
+                    <li class="product__infor-item">
+                      <p class="product__infor-item-brand">Dell Xps</p>
+                    </li>
+                    <li class="product__infor-item">
+                      <p class="product__infor-item-brand">Samsung</p>
+                    </li>
+                  </ul>
+                </div>
+                <div class="grid__row">
+                  <div class="grid__col-2-5">
+                    <div class="product__body-item">
+                      <div class="product__body-img-wrapper">
+                        <a href="product_detail.html">
+                          <img
+                            src="./img/flashsale-product_18.webp"
+                            alt=""
+                            class="product__body-img"
+                          />
+                        </a>
+                      </div>
+                      <a href="product_detail.html" class="product__body-title">
+                        [New 100%] Lenovo LOQ 15-82XV002LUS 2023 (Core
+                        i5-13420H, RAM 8GB, SSD 1TB, RTX 3050 6GB, 15.6" FHD+
+                        144Hz)
+                      </a>
+                      <div class="product__body-price">
+                        <p class="product__body-new-price">17.990.000đ</p>
+                        <p class="product__body-old-price">25.000.000đ</p>
+                      </div>
+                      <div class="product__body-summary">
+                        <p class="product__body-detail">
+                          <strong
+                            >CPU:Intel core i5-13420H<br />
+                            Ram: 8GB<br />
+                            Ổ cứng: 1TB<br />
+                            Card:RTX™ 3050 6GB GDDR6<br />
+                            M.Hình:15.6" FHD&nbsp;144Hz<br />
+                            Khối lượng:2.4kg</strong
+                          >
+                        </p>
+                      </div>
+                      <p class="product__body-vourcher">Giảm 28%</p>
+                    </div>
+                  </div>
+                  <div class="grid__col-2-5">
+                    <div class="product__body-item">
+                      <div class="product__body-img-wrapper">
+                        <a href="product_detail.html">
+                          <img
+                            src="./img/flashsale-product_19.webp"
+                            alt=""
+                            class="product__body-img"
+                          />
+                        </a>
+                      </div>
+                      <a href="product_detail.html" class="product__body-title">
+                        [New 100%] HP Omen 16-xf0033dx&nbsp;(&nbsp;Ryzen™ 9
+                        7940HS ,16GB DDR5 Ram, 512GB SSD, Nvidia GeForce RTX
+                        4070 8GB, 16” FHD 165Hz)
+                      </a>
+                      <div class="product__body-price">
+                        <p class="product__body-new-price">28.990.000đ</p>
+                        <p class="product__body-old-price">38.990.000đ</p>
+                      </div>
+                      <div class="product__body-summary">
+                        <p class="product__body-detail">
+                          <strong
+                            >CPU:&nbsp;Ryzen™ 9 7940HS<br />
+                            Ram: 16GB DDR5<br />
+                            Ổ cứng: 512GB<br />
+                            Card:RTX™ 4070 8GB<br />
+                            M.Hình:16'' FHD&nbsp;165Hz<br />
+                            Khối lượng: 2.45kg</strong
+                          >
+                        </p>
+                      </div>
+                      <p class="product__body-vourcher">Giảm 26%</p>
+                    </div>
+                  </div>
+                  <div class="grid__col-2-5">
+                    <div class="product__body-item">
+                      <div class="product__body-img-wrapper">
+                        <a href="product_detail.html">
+                          <img
+                            src="./img/flashsale-product_02.webp"
+                            alt=""
+                            class="product__body-img"
+                          />
+                        </a>
+                      </div>
+                      <a href="product_detail.html" class="product__body-title">
+                        [New 100%] Asus ROG Flow X13 GV302XA-X13.R9512 xoay gập
+                        2-1 cảm ứng (Ryzen 9 7940HS, Ram 16GB, SSD 512GB, AMD
+                        Radeon™ 780M, 13.4" 120Hz FHD+)
+                      </a>
+                      <div class="product__body-price">
+                        <p class="product__body-new-price">21.900.000đ</p>
+                        <p class="product__body-old-price">26.980.000đ</p>
+                      </div>
+                      <div class="product__body-summary">
+                        <p class="product__body-detail">
+                          <strong
+                            >CPU:&nbsp;Ryzen 9 7940HS<br />
+                            Ram: 16GB&nbsp;<br />
+                            Ổ cứng: 512GB<br />
+                            Card: AMD Radeon™ 780M<br />
+                            M.Hình: 13.4'' FHD+,500nits,120HZ&nbsp;<br />
+                            Khối lượng: 1.3kg</strong
+                          >
+                        </p>
+                      </div>
+                      <p class="product__body-vourcher">Giảm 19%</p>
+                    </div>
+                  </div>
+                  <div class="grid__col-2-5">
+                    <div class="product__body-item">
+                      <div class="product__body-img-wrapper">
+                        <a href="product_detail.html">
+                          <img
+                            src="./img/flashsale-product_06.webp"
+                            alt=""
+                            class="product__body-img"
+                          />
+                        </a>
+                      </div>
+                      <a href="product_detail.html" class="product__body-title">
+                        [New 100%] Lenovo Legion 5 (Y7000P)16IRX9( Core
+                        i7-14650HX, Ram 16G, SSD 1T, RTX 4050, 16″ 2.5k 165Hz)
+                      </a>
+                      <div class="product__body-price">
+                        <p class="product__body-new-price">28.990.000đ</p>
+                        <p class="product__body-old-price">37.490.000đ</p>
+                      </div>
+                      <div class="product__body-summary">
+                        <p class="product__body-detail">
+                          <strong
+                            >CPU:Core™ i7-14650HX<br />
+                            RAM:16GB<br />
+                            Ổ cứng: 1TB<br />
+                            Card:&nbsp;RTX 4050&nbsp;6GB<br />
+                            M.Hình:&nbsp;16″ 2.5K&nbsp;100%sRGB 165Hz<br />
+                            Khối lượng: 2.4kg</strong
+                          >
+                        </p>
+                      </div>
+                      <p class="product__body-vourcher">Giảm 23%</p>
+                    </div>
+                  </div>
+                  <div class="grid__col-2-5">
+                    <div class="product__body-item">
+                      <div class="product__body-img-wrapper">
+                        <a href="product_detail.html">
+                          <img
+                            src="./img/flashsale-product_20.webp"
+                            alt=""
+                            class="product__body-img"
+                          />
+                        </a>
+                      </div>
+                      <a href="product_detail.html" class="product__body-title">
+                        [New 100%] HP Gaming Victus 15-fb1013dx (AMD RYZEN 5
+                        7535HS, 8GB, SSD 512GB, RTX 2050, 15.6'' Full HD, IPS,
+                        144Hz)
+                      </a>
+                      <div class="product__body-price">
+                        <p class="product__body-new-price">15.500.000đ</p>
+                        <p class="product__body-old-price">21.890.000đ</p>
+                      </div>
+                      <div class="product__body-summary">
+                        <p class="product__body-detail">
+                          <strong
+                            >CPU:RYZEN 5 7535HS<br />
+                            RAM: 8GB<br />
+                            Ổ cứng:512GB<br />
+                            Card: RTX 2050 4GB<br />
+                            M.Hình:15.6'' FHD 144Hz<br />
+                            Khối Lượng: 2.3kg</strong
+                          >
+                        </p>
+                      </div>
+                      <p class="product__body-vourcher">Giảm 29%</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="more__prod-btn">
+                  <a href="" class="btn btn__load" title="Xem thêm">Xem thêm</a>
+                </div>
+              </div>
+              <!-- product type: Lenovo legion -->
+              <div class="product-app grid">
+                <div class="product__infor">
+                  <h3 class="product__infor-name">LAPTOP LENOVO Legion</h3>
+                </div>
+                <div class="grid__row">
+                  <div class="grid__col-2-5">
+                    <div class="product__body-item">
+                      <div class="product__body-img-wrapper">
+                        <a href="product_detail.html">
+                          <img
+                            src="./img/flashsale-product_01.webp"
+                            alt=""
+                            class="product__body-img"
+                          />
+                        </a>
+                      </div>
+                      <a href="product_detail.html" class="product__body-title">
+                        [New 100%] Lenovo Legion Slim 5 (Ryzen 7 7735H, RTX
+                        4060-8GB, Ram 16GB, SSD 512GB, Màn 15,6' 2K 165Hz)
+                      </a>
+                      <div class="product__body-price">
+                        <p class="product__body-new-price">25.500.000đ</p>
+                        <p class="product__body-old-price">32.890.000đ</p>
+                      </div>
+                      <div class="product__body-summary">
+                        <p class="product__body-detail">
+                          <strong
+                            >CPU:Ryzen 7 7735H<br />
+                            Ram: 16GB<br />
+                            Ổ cứng: 512GB<br />
+                            Card: RTX 4060 8GB<br />
+                            M.Hình:15.6'' 2K 165Hz<br />
+                            Khối lượng:2.3kg</strong
+                          >
+                        </p>
+                      </div>
+                      <p class="product__body-vourcher">Giảm 22%</p>
+                    </div>
+                  </div>
+                  <div class="grid__col-2-5">
+                    <div class="product__body-item">
+                      <div class="product__body-img-wrapper">
+                        <a href="product_detail.html">
+                          <img
+                            src="./img/flashsale-product_01.webp"
+                            alt=""
+                            class="product__body-img"
+                          />
+                        </a>
+                      </div>
+                      <a href="product_detail.html" class="product__body-title">
+                        [New 100%] Lenovo Legion Slim 5 (Ryzen 7 7840H, RTX
+                        4060-8GB, Ram 16GB, SSD 512GB, Màn 15,6' FHD 144Hz)
+                      </a>
+                      <div class="product__body-price">
+                        <p class="product__body-new-price">24.690.000đ</p>
+                        <p class="product__body-old-price">32.890.000đ</p>
+                      </div>
+                      <div class="product__body-summary">
+                        <p class="product__body-detail">
+                          <strong>
+                            CPU:Ryzen 7 7840H
+                            <br />
+                            Ram: 16GB
+                            <br />
+                            Ổ cứng: 512GB
+                            <br />
+                            Card: RTX 4060 8GB
+                            <br />
+                            M.Hình:15.6'' FHD 144Hz
+                            <br />
+                            Khối lượng:2.3kg
+                          </strong>
+                        </p>
+                      </div>
+                      <p class="product__body-vourcher">Giảm 25%</p>
+                    </div>
+                  </div>
+                  <div class="grid__col-2-5">
+                    <div class="product__body-item">
+                      <div class="product__body-img-wrapper">
+                        <a href="product_detail.html">
+                          <img
+                            src="./img/flashsale-product_06.webp"
+                            alt=""
+                            class="product__body-img"
+                          />
+                        </a>
+                      </div>
+                      <a href="product_detail.html" class="product__body-title">
+                        [New 100%] Lenovo Legion 5 (Y7000P)16IRX9( Core
+                        i7-14650HX, Ram 16G, SSD 1T, RTX 4050, 16″ 2.5k 165Hz)
+                      </a>
+                      <div class="product__body-price">
+                        <p class="product__body-new-price">28.990.000đ</p>
+                        <p class="product__body-old-price">37.490.000đ</p>
+                      </div>
+                      <div class="product__body-summary">
+                        <p class="product__body-detail">
+                          <strong
+                            >CPU:Core™ i7-14650HX<br />
+                            RAM:16GB<br />
+                            Ổ cứng: 1TB<br />
+                            Card:&nbsp;RTX 4050&nbsp;6GB<br />
+                            M.Hình:&nbsp;16″ 2.5K&nbsp;100%sRGB 165Hz<br />
+                            Khối lượng: 2.4kg</strong
+                          >
+                        </p>
+                      </div>
+                      <p class="product__body-vourcher">Giảm 23%</p>
+                    </div>
+                  </div>
+                  <div class="grid__col-2-5">
+                    <div class="product__body-item">
+                      <div class="product__body-img-wrapper">
+                        <a href="product_detail.html">
+                          <img
+                            src="./img/flashsale-product_01.webp"
+                            alt=""
+                            class="product__body-img"
+                          />
+                        </a>
+                      </div>
+                      <a href="product_detail.html" class="product__body-title">
+                        [New 100%] Lenovo Legion Pro 5 R9000P 2023 (Ryzen
+                        9-7945HX, 16GB, 1TB, RTX 4060 8GB, 16" WQXGA 240Hz)
+                      </a>
+                      <div class="product__body-price">
+                        <p class="product__body-new-price">31.790.000đ</p>
+                        <p class="product__body-old-price">41.000.000đ</p>
+                      </div>
+                      <div class="product__body-summary">
+                        <p class="product__body-detail">
+                          <strong
+                            >CPU:&nbsp; Ryzen 9-7945HX<br />
+                            Ram: 16GB<br />
+                            Ổ cứng: 1 TB<br />
+                            Card: RTX 4060 8GB<br />
+                            M.Hình:16''&nbsp;2.5K 240Hz<br />
+                            Khối lượng: 2.53kg</strong
+                          >
+                        </p>
+                      </div>
+                      <p class="product__body-vourcher">Giảm 22%</p>
+                    </div>
+                  </div>
+                  <div class="grid__col-2-5">
+                    <div class="product__body-item">
+                      <div class="product__body-img-wrapper">
+                        <a href="product_detail.html">
+                          <img
+                            src="./img/flashsale-product_18.webp"
+                            alt=""
+                            class="product__body-img"
+                          />
+                        </a>
+                      </div>
+                      <a href="product_detail.html" class="product__body-title">
+                        [New 100%] Lenovo LOQ 15-82XV002LUS 2023 (Core
+                        i5-13420H, RAM 8GB, SSD 1TB, RTX 3050 6GB, 15.6" FHD+
+                        144Hz)
+                      </a>
+                      <div class="product__body-price">
+                        <p class="product__body-new-price">17.990.000đ</p>
+                        <p class="product__body-old-price">25.000.000đ</p>
+                      </div>
+                      <div class="product__body-summary">
+                        <p class="product__body-detail">
+                          <strong
+                            >CPU:Intel core i5-13420H<br />
+                            Ram: 8GB<br />
+                            Ổ cứng: 1TB<br />
+                            Card:RTX™ 3050 6GB GDDR6<br />
+                            M.Hình:15.6" FHD&nbsp;144Hz<br />
+                            Khối lượng:2.4kg</strong
+                          >
+                        </p>
+                      </div>
+                      <p class="product__body-vourcher">Giảm 28%</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="more__prod-btn">
+                  <a
+                    href="product_detail.html"
+                    class="btn btn__load"
+                    title="Xem thêm"
+                    >Xem thêm</a
+                  >
+                </div>
+              </div>
+              <!-- product type: Thinkbook -->
+              <div class="product-app grid">
+                <div class="product__infor">
+                  <h3 class="product__infor-name">LAPTOP THINKBOOK</h3>
+                </div>
+                <div class="grid__row">
+                  <div class="grid__col-2-5">
+                    <div class="product__body-item">
+                      <div class="product__body-img-wrapper">
+                        <a href="product_detail.html">
+                          <img
+                            src="./img/flashsale-product_11.webp"
+                            alt=""
+                            class="product__body-img"
+                          />
+                        </a>
+                      </div>
+                      <a href="product_detail.html" class="product__body-title">
+                        [NEW 100%] Lenovo Thinkbook 14 G6+ AHP(AMD R7-8845H, RAM
+                        32GB, SSD 1TB, AMD Radeon 780M, Màn 14,5in 2.5K)
+                      </a>
+                      <div class="product__body-price">
+                        <p class="product__body-new-price">21.890.000đ</p>
+                        <p class="product__body-old-price">26.990.000đ</p>
+                      </div>
+                      <div class="product__body-summary">
+                        <p class="product__body-detail">
+                          <strong
+                            >CPU:&nbsp;Ryzen 7 8845H<br />
+                            Ram: 32GB<br />
+                            Ổ cứng: 1TB&nbsp;<br />
+                            Card:AMD Radeon 780M<br />
+                            M.Hình:14,5in 2.5K 400nits<br />
+                            Khối lượng: 1,5kg</strong
+                          >
+                        </p>
+                      </div>
+                      <p class="product__body-vourcher">Giảm 19%</p>
+                    </div>
+                  </div>
+                  <div class="grid__col-2-5">
+                    <div class="product__body-item">
+                      <div class="product__body-img-wrapper">
+                        <a href="product_detail.html">
+                          <img
+                            src="./img/flashsale-product_11.webp"
+                            alt=""
+                            class="product__body-img"
+                          />
+                        </a>
+                      </div>
+                      <a href="product_detail.html" class="product__body-title">
+                        [NEW 100%] Lenovo Thinkbook 14 G6+ IMH (Core Ultra 7
+                        155H, RAM 16GB, SSD 512, Màn 14,5in 2.5K)
+                      </a>
+                      <div class="product__body-price">
+                        <p class="product__body-new-price">23.990.000đ</p>
+                        <p class="product__body-old-price">27.990.000đ</p>
+                      </div>
+                      <div class="product__body-summary">
+                        <p class="product__body-detail">
+                          <strong
+                            >CPU:&nbsp;Intel Ultra 7 155H<br />
+                            Ram: 16GB<br />
+                            Ổ cứng: 512GB&nbsp;<br />
+                            Card:&nbsp;Intel Arc Graphics<br />
+                            M.Hình:14,5in 2.5K 400nits<br />
+                            Khối lượng: 1,5kg</strong
+                          >
+                        </p>
+                      </div>
+                      <p class="product__body-vourcher">Giảm 14%</p>
+                    </div>
+                  </div>
+                  <div class="grid__col-2-5">
+                    <div class="product__body-item">
+                      <div class="product__body-img-wrapper">
+                        <a href="product_detail.html">
+                          <img
+                            src="./img/flashsale-product_07.webp"
+                            alt=""
+                            class="product__body-img"
+                          />
+                        </a>
+                      </div>
+                      <a href="product_detail.html" class="product__body-title">
+                        [New 100%] Lenovo Thinkbook 14 G5+ (Core I5-13500H,
+                        16GB, 512GB, Intel Xe Graphics eligible, 14.0" 2.8K IPS
+                        90Hz)
+                      </a>
+                      <div class="product__body-price">
+                        <p class="product__body-new-price">18.200.000đ</p>
+                        <p class="product__body-old-price">25.890.000đ</p>
+                      </div>
+                      <div class="product__body-summary">
+                        <p class="product__body-detail">
+                          <strong
+                            >CPU: Core I5-13500H<br />
+                            Ram: 16GB&nbsp;<br />
+                            Ổ cứng: 512GB<br />
+                            Card:Intel&nbsp;Iris&nbsp;Xe Graphics<br />
+                            M.Hình:14’’ 2.8K&nbsp;100%sRGB 400nits<br />
+                            Trọng lượng: 1.4kg</strong
+                          >
+                        </p>
+                      </div>
+                      <p class="product__body-vourcher">Giảm 30%</p>
+                    </div>
+                  </div>
+                  <div class="grid__col-2-5">
+                    <div class="product__body-item">
+                      <div class="product__body-img-wrapper">
+                        <a href="product_detail.html">
+                          <img
+                            src="./img/flashsale-product_04.webp"
+                            alt=""
+                            class="product__body-img"
+                          />
+                        </a>
+                      </div>
+                      <a href="product_detail.html" class="product__body-title">
+                        [New 100%] Lenovo Thinkbook 16 G5+ (Core I5-13500H,
+                        16GB, 512GB, Intel Xe Graphics eligible, 16.0" 2.5K )
+                      </a>
+                      <div class="product__body-price">
+                        <p class="product__body-new-price">19.990.000đ</p>
+                        <p class="product__body-old-price">25.990.000đ</p>
+                      </div>
+                      <div class="product__body-summary">
+                        <p class="product__body-detail">
+                          <strong
+                            >CPU: Core I5-13500H<br />
+                            Ram: 16GB&nbsp;<br />
+                            Ổ cứng: 512GB<br />
+                            Card:Intel&nbsp;Iris&nbsp;Xe Graphics<br />
+                            M.Hình:16’’ 2.5K&nbsp;100%sRGB 350nits<br />
+                            Trọng lượng: 1.8kg</strong
+                          >
+                        </p>
+                      </div>
+                      <p class="product__body-vourcher">Giảm 23%</p>
+                    </div>
+                  </div>
+                  <div class="grid__col-2-5">
+                    <div class="product__body-item">
+                      <div class="product__body-img-wrapper">
+                        <a href="product_detail.html">
+                          <img
+                            src="./img/flashsale-product_20.webp"
+                            alt=""
+                            class="product__body-img"
+                          />
+                        </a>
+                      </div>
+                      <a href="product_detail.html" class="product__body-title">
+                        [NEW 100%] Lenovo Thinkbook 14P Gen 3 ARH (Ryzen 7
+                        6800H, AMD Radeon 680M, Ram 16GB, SSD 512GB, Màn 14'
+                        2.2K, 100% sRGB)
+                      </a>
+                      <div class="product__body-price">
+                        <p class="product__body-new-price">15.690.000đ</p>
+                        <p class="product__body-old-price">22.490.000đ</p>
+                      </div>
+                      <div class="product__body-summary">
+                        <p class="product__body-detail">
+                          <strong
+                            >CPU:&nbsp;Ryzen 7 6800H<br />
+                            Ram: 16GB<br />
+                            Ổ cứng: 512GB&nbsp;<br />
+                            Card:AMD Radeon 680M<br />
+                            M.Hình:14’’ 2.2K&nbsp;100%sRGB 300nits<br />
+                            Khối lượng: 1,4kg</strong
+                          >
+                        </p>
+                      </div>
+                      <p class="product__body-vourcher">Giảm 30%</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="more__prod-btn">
+                  <a href="" class="btn btn__load" title="Xem thêm">Xem thêm</a>
+                </div>
+              </div>
+              <!-- Product type: Dell Xps -->
+              <div class="product-app grid">
+                <div class="product__infor">
+                  <h3 class="product__infor-name">LAPTOP DELL XPS</h3>
+                </div>
+                <div class="grid__row">
+                  <div class="grid__col-2-5">
+                    <div class="product__body-item">
+                      <div class="product__body-img-wrapper">
+                        <a href="product_detail.html">
+                          <img
+                            src="./img/flashsale-product_08.webp"
+                            alt=""
+                            class="product__body-img"
+                          />
+                        </a>
+                      </div>
+                      <a href="product_detail.html" class="product__body-title">
+                        [New 100%] Dell XPS 13 9365 2 In 1 (Core i5-7Y54, 8GB,
+                        256GB, 13,3 QHD+ 3K 3200 X 1800 touch)
+                      </a>
+                      <div class="product__body-price">
+                        <p class="product__body-new-price">13.490.000đ</p>
+                        <p class="product__body-old-price">19.000.000đ</p>
+                      </div>
+                      <div class="product__body-summary">
+                        <p class="product__body-detail">
+                          <strong
+                            >CPU:Core™&nbsp;i5-7Y54<br />
+                            Ram: 8GB<br />
+                            Ổ cứng: 256GB<br />
+                            Card:Intel&nbsp;Iris&nbsp;Xe Graphics<br />
+                            M. Hình:13.3&nbsp;3K&nbsp;Touch<br />
+                            Khối lượng:1.24kg</strong
+                          >
+                        </p>
+                      </div>
+                      <p class="product__body-vourcher">Giảm 26%</p>
+                    </div>
+                  </div>
+                  <div class="grid__col-2-5">
+                    <div class="product__body-item">
+                      <div class="product__body-img-wrapper">
+                        <a href="product_detail.html">
+                          <img
+                            src="./img/flashsale-product_08.webp"
+                            alt=""
+                            class="product__body-img"
+                          />
+                        </a>
+                      </div>
+                      <a href="product_detail.html" class="product__body-title">
+                        [New 100%] DELL XPS 15 9575 2 IN 1 ( Core i5-8305G, 8GB,
+                        256GB, VGA AMD RX VEGA M, 15,6 FHD Cảm Ứng)
+                      </a>
+                      <div class="product__body-price">
+                        <p class="product__body-new-price">11.990.000đ</p>
+                        <p class="product__body-old-price">22.890.000đ</p>
+                      </div>
+                      <div class="product__body-summary">
+                        <p class="product__body-detail">
+                          <strong
+                            >CPU:Core i5-8305G<br />
+                            Ram: 8GB<br />
+                            Ổ cứng: 256GB<br />
+                            Card:GA AMD RX VEGA M<br />
+                            M. Hình:15.6''&nbsp;FHD Cảm ứng<br />
+                            Khối lượng:2.02kg</strong
+                          >
+                        </p>
+                      </div>
+                      <p class="product__body-vourcher">Giảm 48%</p>
+                    </div>
+                  </div>
+                  <div class="grid__col-2-5">
+                    <div class="product__body-item">
+                      <div class="product__body-img-wrapper">
+                        <a href="product_detail.html">
+                          <img
+                            src="./img/flashsale-product_10.webp"
+                            alt=""
+                            class="product__body-img"
+                          />
+                        </a>
+                      </div>
+                      <a href="product_detail.html" class="product__body-title">
+                        [New Outlet] Dell XPS 13 9315 (Core i7-1250U, Ram 16GB
+                        ,512 SSD, 13.4 inch FHD)
+                      </a>
+                      <div class="product__body-price">
+                        <p class="product__body-new-price">23.890.000đ</p>
+                        <p class="product__body-old-price">41.990.000đ</p>
+                      </div>
+                      <div class="product__body-summary">
+                        <p class="product__body-detail">
+                          <strong
+                            >CPU:Core™ i7-1250U<br />
+                            Ram: 16GB<br />
+                            Ổ cứng: 512G<br />
+                            Card:Intel&nbsp;Iris&nbsp;Xe Graphics<br />
+                            M. Hình:13.4 FHD+ Touch<br />
+                            Khối lượng:1.2kg</strong
+                          >
+                        </p>
+                      </div>
+                      <p class="product__body-vourcher">Giảm 43%</p>
+                    </div>
+                  </div>
+                  <div class="grid__col-2-5">
+                    <div class="product__body-item">
+                      <div class="product__body-img-wrapper">
+                        <a href="product_detail.html">
+                          <img
+                            src="./img/flashsale-product_19.webp"
+                            alt=""
+                            class="product__body-img"
+                          />
+                        </a>
+                      </div>
+                      <a href="product_detail.html" class="product__body-title">
+                        [New Outlet] Laptop Dell XPS 13 Plus 9320 (Core
+                        i7-1260P, 16GB, 1TB, 13.4IN 3.5K TOUCH)
+                      </a>
+                      <div class="product__body-price">
+                        <p class="product__body-new-price">29.990.000đ</p>
+                        <p class="product__body-old-price">33.000.000đ</p>
+                      </div>
+                      <div class="product__body-summary">
+                        <p class="product__body-detail">
+                          <strong
+                            >CPU: Core i7-1260P<br />
+                            Ram: 16GB DDR4<br />
+                            Ổ cứng: 1TB NVME<br />
+                            Card:Intel&nbsp;Iris&nbsp;Xe Graphics<br />
+                            M.Hình:13.4''&nbsp;3.5K cảm ứng<br />
+                            Trọng lượng: 1.2kg</strong
+                          >
+                        </p>
+                      </div>
+                      <p class="product__body-vourcher">Giảm 9%</p>
+                    </div>
+                  </div>
+                  <div class="grid__col-2-5">
+                    <div class="product__body-item">
+                      <div class="product__body-img-wrapper">
+                        <a href="product_detail.html">
+                          <img
+                            src="./img/flashsale-product_13.webp"
+                            alt=""
+                            class="product__body-img"
+                          />
+                        </a>
+                      </div>
+                      <a href="product_detail.html" class="product__body-title">
+                        [New Outlet] Laptop Dell XPS 13 Plus 9320 (Core
+                        i7-1260P, 16GB, 512GB, 13.4IN 3.5K TOUCH)
+                      </a>
+                      <div class="product__body-price">
+                        <p class="product__body-new-price">28.990.000đ</p>
+                        <p class="product__body-old-price">35.000.000đ</p>
+                      </div>
+                      <div class="product__body-summary">
+                        <p class="product__body-detail">
+                          <strong
+                            >CPU: Core i7-1270P<br />
+                            Ram: 16GB DDR4<br />
+                            Ổ cứng: 512G&nbsp;NVME<br />
+                            Card:Intel&nbsp;Iris&nbsp;Xe Graphics<br />
+                            M.Hình:13.4''&nbsp;3.5K cảm ứng<br />
+                            Trọng lượng: 1.2kg</strong
+                          >
+                        </p>
+                      </div>
+                      <p class="product__body-vourcher">Giảm 17%</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="more__prod-btn">
+                  <a
+                    href="product_detail.html"
+                    class="btn btn__load"
+                    title="Xem thêm"
+                    >Xem thêm</a
+                  >
+                </div>
+              </div>
+              <!-- product type: Microsoft surface -->
+              <div class="product-app grid">
+                <div class="product__infor">
+                  <h3 class="product__infor-name">MICROSOFT SURFACE</h3>
+                </div>
+                <div class="grid__row">
+                  <div class="grid__col-2-5">
+                    <div class="product__body-item">
+                      <div class="product__body-img-wrapper">
+                        <a href="product_detail.html">
+                          <img
+                            src="./img/flashsale-product_15.webp"
+                            alt=""
+                            class="product__body-img"
+                          />
+                        </a>
+                      </div>
+                      <a href="product_detail.html" class="product__body-title">
+                        [New Outlet] Surface Laptop 3 (Vàng hồng) | Core i7
+                        1065G7/ RAM 16GB / SSD 256GB / Màn 13.5 in 2k Cảm Ứng
+                        (Refurbised Certified)
+                      </a>
+                      <div class="product__body-price">
+                        <p class="product__body-new-price">16.990.000đ</p>
+                        <p class="product__body-old-price">20.890.000đ</p>
+                      </div>
+                      <div class="product__body-summary">
+                        <p class="product__body-detail">
+                          <strong
+                            >CPU: Core i7 1065G7<br />
+                            Ram: 16GB DDR4&nbsp;<br />
+                            Ổ cứng: 256G NVME<br />
+                            Card:&nbsp;Intel® Iris™ Plus&nbsp;<br />
+                            M.Hình: 13.5''&nbsp;2K&nbsp;Touch<br />
+                            Khối lượng: 1.28kg</strong
+                          >
+                        </p>
+                      </div>
+                      <p class="product__body-vourcher">Giảm 19%</p>
+                    </div>
+                  </div>
+                  <div class="grid__col-2-5">
+                    <div class="product__body-item">
+                      <div class="product__body-img-wrapper">
+                        <a href="product_detail.html">
+                          <img
+                            src="./img/flashsale-product_16.webp"
+                            alt=""
+                            class="product__body-img"
+                          />
+                        </a>
+                      </div>
+                      <a href="product_detail.html" class="product__body-title">
+                        [New Outlet] Surface Book 3 (Core i5-1035G7, RAM 8GB,
+                        SSD 256GB, 13.5 inch(3000 x 2000)
+                      </a>
+                      <div class="product__body-price">
+                        <p class="product__body-new-price">12.990.000đ</p>
+                        <p class="product__body-old-price">21.000.000đ</p>
+                      </div>
+                      <div class="product__body-summary">
+                        <p class="product__body-detail">
+                          <strong
+                            >CPU:Core™ i5-1035G7&nbsp;<br />
+                            RAM: 8GB<br />
+                            Ổ cứng: 256GB<br />
+                            Card:Intel Iris Plus Graphics<br />
+                            M.Hình:1.3.5'' 3000 x 2000 (267 PPI)<br />
+                            Khối lượng:1.6KG</strong
+                          >
+                        </p>
+                      </div>
+                      <p class="product__body-vourcher">Giảm 38%</p>
+                    </div>
+                  </div>
+                  <div class="grid__col-2-5">
+                    <div class="product__body-item">
+                      <div class="product__body-img-wrapper">
+                        <a href="product_detail.html">
+                          <img
+                            src="./img/flashsale-product_21.webp"
+                            alt=""
+                            class="product__body-img"
+                          />
+                        </a>
+                      </div>
+                      <a href="product_detail.html" class="product__body-title">
+                        [New 100%] Surface Pro 9 ( Core i5 1235U/ Ram 8GB / SSD
+                        256GB, 13in&nbsp;2880 x 1920 120ghz)
+                      </a>
+                      <div class="product__body-price">
+                        <p class="product__body-new-price">22.490.000đ</p>
+                        <p class="product__body-old-price">32.890.000đ</p>
+                      </div>
+                      <div class="product__body-summary">
+                        <p class="product__body-detail">
+                          <strong
+                            >CPU:&nbsp;Intel Core i5-1235U<br />
+                            Ram: 8G<br />
+                            Ổ cứng: 256GB<br />
+                            Card:&nbsp;Intel Iris Xe Graphics<br />
+                            M.Hình&nbsp;: 13in&nbsp;2880 x 1920 120ghz<br />
+                            Khối lượng: 879 gram</strong
+                          >
+                        </p>
+                      </div>
+                      <p class="product__body-vourcher">Giảm 32%</p>
+                    </div>
+                  </div>
+                  <div class="grid__col-2-5">
+                    <div class="product__body-item">
+                      <div class="product__body-img-wrapper">
+                        <a href="product_detail.html">
+                          <img
+                            src="./img/flashsale-product_21.webp"
+                            alt=""
+                            class="product__body-img"
+                          />
+                        </a>
+                      </div>
+                      <a href="product_detail.html" class="product__body-title">
+                        [New 100%] Surface Pro 9 Wifi (Core i7 1255U/ Ram 16GB /
+                        SSD 512GB)
+                      </a>
+                      <div class="product__body-price">
+                        <p class="product__body-new-price">39.990.000đ</p>
+                        <p class="product__body-old-price">59.890.000đ</p>
+                      </div>
+                      <div class="product__body-summary">
+                        <p class="product__body-detail">
+                          <strong
+                            >CPU: Core i7-1255U<br />
+                            Ram: 16GB<br />
+                            Ổ cứng: 512GB<br />
+                            Card:&nbsp;Intel Iris Xe Graphics<br />
+                            M.Hình&nbsp;:&nbsp;13 inch<br />
+                            Khối lượng: 879 gram</strong
+                          >
+                        </p>
+                      </div>
+                      <p class="product__body-vourcher">Giảm 33%</p>
+                    </div>
+                  </div>
+                  <div class="grid__col-2-5">
+                    <div class="product__body-item">
+                      <div class="product__body-img-wrapper">
+                        <a href="product_detail.html">
+                          <img
+                            src="./img/flashsale-product_21.webp"
+                            alt=""
+                            class="product__body-img"
+                          />
+                        </a>
+                      </div>
+                      <a href="product_detail.html" class="product__body-title">
+                        [New 100%] Surface Pro 9 ( Core i5 1235U/ Ram 8GB / SSD
+                        128GB, 13in&nbsp;2880 x 1920 120ghz)
+                      </a>
+                      <div class="product__body-price">
+                        <p class="product__body-new-price">20.890.000đ</p>
+                        <p class="product__body-old-price">32.890.000đ</p>
+                      </div>
+                      <div class="product__body-summary">
+                        <p class="product__body-detail">
+                          <strong
+                            >CPU:&nbsp;Intel Core i5-1235U<br />
+                            Ram: 8G<br />
+                            Ổ cứng: 128G<br />
+                            Card:&nbsp;Intel Iris Xe Graphics<br />
+                            M.Hình&nbsp;: 13in&nbsp;2880 x 1920 120ghz<br />
+                            Khối lượng: 879 gram</strong
+                          >
+                        </p>
+                      </div>
+                      <p class="product__body-vourcher">Giảm 37%</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="more__prod-btn">
+                  <a href="" class="btn btn__load" title="Xem thêm">Xem thêm</a>
+                </div>
+              </div>
+              <!-- product type: old with cheap -->
+              <div class="product-app grid">
+                <div class="product__infor">
+                  <h3 class="product__infor-name">MÁY CŨ GIÁ RẺ</h3>
+                  <ul class="product__infor-list">
+                    <li class="product__infor-item">
+                      <p class="product__infor-item-brand">Dell</p>
+                    </li>
+                    <li class="product__infor-item">
+                      <p class="product__infor-item-brand">Asus</p>
+                    </li>
+                    <li class="product__infor-item">
+                      <p class="product__infor-item-brand">Acer</p>
+                    </li>
+                    <li class="product__infor-item">
+                      <p class="product__infor-item-brand">Hp</p>
+                    </li>
+                    <li class="product__infor-item">
+                      <p class="product__infor-item-brand">Lenovo</p>
+                    </li>
+                    <li class="product__infor-item">
+                      <p class="product__infor-item-brand">Thinkbook</p>
+                    </li>
+                    <li class="product__infor-item">
+                      <p class="product__infor-item-brand">Dell Xps</p>
+                    </li>
+                    <li class="product__infor-item">
+                      <p class="product__infor-item-brand">Samsung</p>
+                    </li>
+                  </ul>
+                </div>
+                <div class="grid__row">
+                  <div class="grid__col-2-5">
+                    <div class="product__body-item">
+                      <div class="product__body-img-wrapper">
+                        <a href="product_detail.html">
+                          <img
+                            src="./img/flashsale-product_17.webp"
+                            alt=""
+                            class="product__body-img"
+                          />
+                        </a>
+                      </div>
+                      <a href="product_detail.html" class="product__body-title">
+                        [New Outlet] Acer aspire 3 A315-24PT-R4U2 (AMD Ryzen 5
+                        7520U / RAM 16GB/ SSD 512GB, AMD Radeon Graphics/ 15.6''
+                        FHD cảm ứng )
+                      </a>
+                      <div class="product__body-price">
+                        <p class="product__body-new-price">10.490.000đ</p>
+                        <p class="product__body-old-price">14.890.000đ</p>
+                      </div>
+                      <div class="product__body-summary">
+                        <p class="product__body-detail">
+                          <strong
+                            >CPU:&nbsp;Ryzen 5 7520U<br />
+                            Ram: 16GB DDR5<br />
+                            Ổ cứng: 512G&nbsp;NVME<br />
+                            Card: AMD radeon graphics<br />
+                            M.Hình: 15.6''&nbsp;FHD 60Hz cảm ứng<br />
+                            Khối lượng: 1,78kg</strong
+                          >
+                        </p>
+                      </div>
+                      <p class="product__body-vourcher">Giảm 30%</p>
+                    </div>
+                  </div>
+                  <div class="grid__col-2-5">
+                    <div class="product__body-item">
+                      <div class="product__body-img-wrapper">
+                        <a href="product_detail.html">
+                          <img
+                            src="./img/flashsale-product_10.webp"
+                            alt=""
+                            class="product__body-img"
+                          />
+                        </a>
+                      </div>
+                      <a href="product_detail.html" class="product__body-title">
+                        [Like new] Dell Latitude 7400 (Core i5-8265U, 8GB,
+                        256GB, VGA Intel UHD Graphics 620, 14.0 FHD IPS)
+                      </a>
+                      <div class="product__body-price">
+                        <p class="product__body-new-price">6.990.000đ</p>
+                        <p class="product__body-old-price">10.500.000đ</p>
+                      </div>
+                      <div class="product__body-summary">
+                        <p class="product__body-detail">
+                          <strong
+                            >CPU:Core i5-8265U<br />
+                            Ram: 8GB<br />
+                            Ổ cứng: 256GB<br />
+                            Card:Intel UHD Graphics 620<br />
+                            M.Hình:14'' FHD&nbsp;IPS<br />
+                            Khối lượng:1.36kg</strong
+                          >
+                        </p>
+                      </div>
+                      <p class="product__body-vourcher">Giảm 33%</p>
+                    </div>
+                  </div>
+                  <div class="grid__col-2-5">
+                    <div class="product__body-item">
+                      <div class="product__body-img-wrapper">
+                        <a href="product_detail.html">
+                          <img
+                            src="./img/flashsale-product_21.webp"
+                            alt=""
+                            class="product__body-img"
+                          />
+                        </a>
+                      </div>
+                      <a href="product_detail.html" class="product__body-title">
+                        [New Outlet] Acer Aspire 3 A315-58-33XS (Core i3-1115G4
+                        Processor, 4GB DDR4, 128GB NVMe SSD, WiFi 6, 15.6'' FHD)
+                      </a>
+                      <div class="product__body-price">
+                        <p class="product__body-new-price">6.490.000đ</p>
+                        <p class="product__body-old-price">12.990.000đ</p>
+                      </div>
+                      <div class="product__body-summary">
+                        <p class="product__body-detail">
+                          <strong
+                            >CPU:&nbsp;Core i3-1115G4<br />
+                            Ram: 4G DDR4<br />
+                            Ổ cứng:&nbsp;128g NVME<br />
+                            Card:&nbsp; Intel HD&nbsp;<br />
+                            M.Hình:15.6'' FHD IPS<br />
+                            Khối lượng: 1.7KG</strong
+                          >
+                        </p>
+                      </div>
+                      <p class="product__body-vourcher">Giảm 50%</p>
+                    </div>
+                  </div>
+                  <div class="grid__col-2-5">
+                    <div class="product__body-item">
+                      <div class="product__body-img-wrapper">
+                        <a href="product_detail.html">
+                          <img
+                            src="./img/flashsale-product_15.webp"
+                            alt=""
+                            class="product__body-img"
+                          />
+                        </a>
+                      </div>
+                      <a href="product_detail.html" class="product__body-title">
+                        [Like new] HP Zbook 15 G3 (i7 6820HQ, 8G, 256G, Quadro
+                        M1000M, 15.6IN FHD)
+                      </a>
+                      <div class="product__body-price">
+                        <p class="product__body-new-price">7.990.000đ</p>
+                        <p class="product__body-old-price">13.790.000đ</p>
+                      </div>
+                      <div class="product__body-summary">
+                        <p class="product__body-detail">
+                          <strong
+                            >CPU: Core i7-6820HQ&nbsp;<br />
+                            RAM: 8G DDR4<br />
+                            Ổ cứng: 256GB<br />
+                            Card:&nbsp;Quadro M1000M<br />
+                            M.Hình: 15.6''&nbsp;FHD<br />
+                            Khối lượng: 2.6kg</strong
+                          >
+                        </p>
+                      </div>
+                      <p class="product__body-vourcher">Giảm 42%</p>
+                    </div>
+                  </div>
+                  <div class="grid__col-2-5">
+                    <div class="product__body-item">
+                      <div class="product__body-img-wrapper">
+                        <a href="product_detail.html">
+                          <img
+                            src="./img/flashsale-product_11.webp"
+                            alt=""
+                            class="product__body-img"
+                          />
+                        </a>
+                      </div>
+                      <a href="product_detail.html" class="product__body-title">
+                        [New Outlet] Acer aspire 3 A315 – 59 (Core I5 – 1235U /
+                        RAM 8GB/ SSD 256GB,Intel Iris Xe Graphics/ 15.6'' FHD )
+                      </a>
+                      <div class="product__body-price">
+                        <p class="product__body-new-price">9.990.000đ</p>
+                        <p class="product__body-old-price">14.990.000đ</p>
+                      </div>
+                      <div class="product__body-summary">
+                        <p class="product__body-detail">
+                          <strong
+                            >CPU: Core i5-1235U<br />
+                            Ram: 8GB DDR4<br />
+                            Ổ cứng: 256G&nbsp;NVME<br />
+                            Card: Intel Iris Xe Graphics<br />
+                            M.Hình: 15.6''&nbsp;FHD<br />
+                            Khối lượng: 1,78kg</strong
+                          >
+                        </p>
+                      </div>
+                      <p class="product__body-vourcher">Giảm 33%</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="more__prod-btn">
+                  <a href="" class="btn btn__load" title="Xem thêm">Xem thêm</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <!-- tintuc -->
+            <div class="news">
+              <h3 class="news-heading">TIN TỨC</h3>
+              <div class="news__wrapper">
+                <div class="news__represent">
+                  <div class="news__represent-img-container">
+                    <a href="news.html">
+                      <img
+                        src="img/news_product-01.webp"
+                        alt=""
+                        class="news__represent-img"
+                      />
+                    </a>
+                  </div>
+                  <h3 class="news__represent-title">
+                    <a href="news.html">
+                      Con quái vật trong phân khúc giá 30 triệu đồng ? | Review
+                      Acer Predator Helios Neo 16 | I9-13900HX</a
+                    >
+                  </h3>
+                </div>
+
+                <div class="article-aside">
+                  <div class="article-item">
+                    <div class="article-item-img-wrap">
+                      <a href="news.html">
+                        <img
+                          src="./img/article__01.webp"
+                          alt=""
+                          class="article-item-img"
+                        />
+                      </a>
+                    </div>
+                    <div class="article-item-infor">
+                      <h3 class="article-item-title">
+                        <a href="news.html">
+                          Hướng dẫn mua Laptop cũ trả góp tại LaptopAgent
+                        </a>
+                      </h3>
+                      <p class="article-item-date">22/3/2024</p>
+                      <p class="article-item-text">
+                        Để đáp ứng nhu cầu cũng như mong muốn của&nbsp;khách
+                        hàng từ ngày 22/3/2024 LaptopAgent đã chính thức liên
+                        kết với công ty TCTD Home Credit, HD Saison và Trả góp
+                        online qua thẻ tín dụng của hầu hết các ngân hàng. Giờ
+                        đây quý khách hàng có thể thoải mái hơn trong lựa chọn
+                        cho mình 1 chiếc laptop phù hợp nhất vơi công việc cũng
+                        như giải trí tại LaptopAgent mà không cần lo lắng về giá
+                        cả rồi ạ!
+                      </p>
+                    </div>
+                  </div>
+                  <div class="article-item">
+                    <div class="article-item-img-wrap">
+                      <a href="news.html">
+                        <img
+                          src="./img/article__02.webp"
+                          alt=""
+                          class="article-item-img"
+                        />
+                      </a>
+                    </div>
+                    <div class="article-item-infor">
+                      <h3 class="article-item-title">
+                        <a href="news.html">
+                          Dell ra mắt bộ đôi laptop mới nhất cho game thủ
+                        </a>
+                      </h3>
+                      <p class="article-item-date">30/1/2024</p>
+                      <p class="article-item-text">
+                        Hãng máy tính Dell ngày 1/8 chính thức bán ra dòng
+                        laptop chơi game G-series 2024 tại thị trường Việt Nam
+                        với nhiều thay đổi về thiết kế, phần cứng cùng tiện ích
+                        hỗ trợ.
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;Laptop chơi game&nbsp;G5 5590.&nbsp;Ảnh:
+                        Dell.&nbsp; &nbsp; Về cấu hình phần cứng, dòng laptop
+                        chơi game G-series 2019 với sản phẩm G5 5590 và G7 7590
+                        sử dụng nền tảng Intel Coffee Lake với chip Core i thế
+                        hệ 9, tùy chọn đồ họa rời GeForce RTX 2080, RAM DDR4
+                        16GB bus 2.666MHz và SSD M.2 NVMe 512GB. Hệ thống tản
+                        nhiệt cũng cải tiến với 2 quạt làm...
+                      </p>
+                    </div>
+                  </div>
+                  <div class="article-item">
+                    <div class="article-item-img-wrap">
+                      <a href="news.html">
+                        <img
+                          src="./img/article__03.webp"
+                          alt=""
+                          class="article-item-img"
+                        />
+                      </a>
+                    </div>
+                    <div class="article-item-infor">
+                      <h3 class="article-item-title">
+                        <a href="news.html">
+                          Hình ảnh khách hàng mua sắm và trải nghiệm laptop và
+                          các hoạt động của chúng tôi
+                        </a>
+                      </h3>
+                      <p class="article-item-date">11/09/2024</p>
+                      <p></p>
+                    </div>
+                  </div>
+
+                  <a href="news.html">
+                    <div class="m_article-btn">Xem thêm</div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="quick_support">
+        <div class="social-h1">
+          <img src="./img/call.webp" alt="" class="img_phone" />
+          <span class="img_phone">
+            Hotline
+            <strong class="img_phone">0123456789</strong>
+          </span>
+        </div>
+        <div class="social-fb">
+          <img src="./img/fb.webp" alt="" />
+          <span> Fanpage </span>
+        </div>
+        <div class="img_mess social-mess">
+          <img src="./img/messager.webp" alt="" class="img_mess" />
+          <span class="img_mess"> Chat FB </span>
+        </div>
+        <div class="social-zalo img_zalo">
+          <img src="./img/zalo.webp" alt="" class="img_zalo" />
+          <span class="img_zalo">
+            Zalo
+            <strong class="img_zalo">0123456789</strong>
+          </span>
+        </div>
+        <div class="social-ytb">
+          <img src="./img/ytb.webp" alt="" class="img_phone" />
+          <span> Youtube </span>
+        </div>
+      </div>
+      <!-- Footeronous -->
+      <footer>
+        <div class="footer__wrapper">
+          <div class="container">
+            <div class="footer-list">
+              <div class="footer__item">
+                <h3 class="footer__item-heading">Công Ty TNHH LaptopAgent</h3>
+                <p class="footer__item-with-icon">
+                  <i class="fas fa-map-marker-alt footer-icon"></i> Khu đô thị
+                  Vĩnh Điềm Trung, phường Lọc Thọ, tỉnh Khánh Hòa, thành phố Nha
+                  Trang
+                </p>
+                <p class="footer__item-with-icon">
+                  <i class="fas fa-phone-square-alt footer-icon"></i> Hotline:
+                  0123 456 789
+                </p>
+                <p class="footer__item-with-icon">
+                  <i class="fas fa-envelope-square footer-icon"></i> Email:
+                  LaptopAgent@supportmail.com.vn
+                </p>
+                <p class="footer__item-with-icon">
+                  <i class="fas fa-globe footer-icon"></i> Website:
+                  laptopagent.com.vn
+                </p>
+              </div>
+              <div class="footer__item">
+                <h3 class="footer__item-heading">Truy cập nhanh</h3>
+                <a href="">
+                  <p class="footer__item-with-icon">>&nbsp; Trang chủ</p>
+                </a>
+                <a href="">
+                  <p class="footer__item-with-icon">>&nbsp; Giới thiệu</p>
+                </a>
+                <a href="">
+                  <p class="footer__item-with-icon">>&nbsp; Tư vấn laptop</p>
+                </a>
+                <a href="">
+                  <p class="footer__item-with-icon">>&nbsp; Sự kiện</p>
+                </a>
+                <a href="">
+                  <p class="footer__item-with-icon">>&nbsp; Liên hệ</p>
+                </a>
+              </div>
+              <div class="footer__item">
+                <h3 class="footer__item-heading">Danh mục sản phẩm</h3>
+                <a href="">
+                  <p class="footer__item-with-icon">>&nbsp; Laptop Acer</p>
+                </a>
+                <a href="">
+                  <p class="footer__item-with-icon">>&nbsp; Laptop Legion</p>
+                </a>
+                <a href="">
+                  <p class="footer__item-with-icon">>&nbsp; Laptop HP</p>
+                </a>
+                <a href="">
+                  <p class="footer__item-with-icon">>&nbsp; Laptop Samsung</p>
+                </a>
+                <a href="">
+                  <p class="footer__item-with-icon">> &nbsp;Laptop Surface</p>
+                </a>
+                <a href="">
+                  <p class="footer__item-with-icon">>&nbsp; Laptop siêu rẻ</p>
+                </a>
+              </div>
+              <div class="footer__item">
+                <h3 class="footer__item-heading">Follow us</h3>
+                <a href="">
+                  <p class="footer__item-with-icon">
+                    <i class="fab fa-facebook footer-icon"></i> Facebook
+                  </p>
+                </a>
+                <a href="">
+                  <p class="footer__item-with-icon">
+                    <i class="fab fa-youtube footer-icon"></i> Youtube
+                  </p>
+                </a>
+                <a href="">
+                  <p class="footer__item-with-icon">
+                    <i class="fab fa-twitter footer-icon"></i> Twitter
+                  </p>
+                </a>
+                <a href="">
+                  <p class="footer__item-with-icon">
+                    <i class="fab fa-instagram footer-icon"></i> Instagram
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-authentication">
+            Bản quyền thuộc về LaptopAgent
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
